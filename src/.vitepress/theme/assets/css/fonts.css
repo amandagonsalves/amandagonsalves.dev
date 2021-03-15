@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Nunito";
+  src: local("Nunito Regular"), local("Nunito-Regular"),
+    url("../fonts/Nunito-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lora";
+  src: local("Lora Regular"), local("Lora-Regular"),
+    url("../fonts/Lora-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Quando";
+  src: local("Quando Regular"), local("Quando-Regular"),
+    url("../fonts/Quando-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Oxygen";
+  src: local("Oxygen Regular"), local("Oxygen-Regular"),
+    url("../fonts/Oxygen-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ReggaeOne";
+  src: local("ReggaeOne Regular"), local("ReggaeOne-Regular"),
+    url("../fonts/ReggaeOne-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Merienda";
+  src: local("Merienda Regular"), local("Merienda-Regular"),
+    url("../fonts/Merienda-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
