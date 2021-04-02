@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="p-6 fixed top-0 w-full bg-brand-gray"
-  >
+  <div class="p-6 fixed top-0 w-full bg-brand-gray">
     <div class="max-w-5xl mx-auto flex justify-between items-center">
       <h2 class="font-merienda">
         amandagonsalves<span class="text-brand-danger">.</span>dev
@@ -9,17 +7,32 @@
 
       <nav class="flex items-center">
         <ul class="flex items-center">
-          <a href="#" class="mr-4 font-oxygen border-b border-transparent text-center hover:border-gray-600 transition-all duration-300">Home</a>
-          <a href="#" class="mr-4 font-oxygen border-b border-transparent text-center hover:border-gray-600 transition-all duration-300">About</a>
-          <a href="#" class="mr-4 font-oxygen border-b border-transparent text-center hover:border-gray-600 transition-all duration-300">Projects</a>
+          <li v-for="item in navData" :key="item.link">
+            <a
+              class="mr-4 font-oxygen border-b border-transparent text-center hover:border-brand-aqua transition-all duration-300 hover:text-brand-aqua"
+              :href="item.link"
+              v-text="item.text"
+            ></a>
+          </li>
         </ul>
 
-        <button type="button" class="font-oxygen border-b border-transparent text-center hover:border-gray-600 transition-all duration-300">Let's talk &#10132;</button>
+        <button
+          type="button"
+          class="font-oxygen border-b border-transparent text-center hover:border-brand-aqua  hover:text-brand-aqua transition-all duration-300"
+        >
+          Let's talk &#10132;
+        </button>
       </nav>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    navData() {
+      return this.$site.themeConfig.nav;
+    },
+  },
+};
 </script>

@@ -1,9 +1,11 @@
 module.exports = {
   title: 'Amanda Gonsalves',
-  description: 'personal website',
+  description: 'My personal website',
   themeConfig: {
-    nav: {
-      
-    }
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'About', link: '/projects/' },
+      { text: 'Projects', link: '/about/' },
+    ],
   }
 }
