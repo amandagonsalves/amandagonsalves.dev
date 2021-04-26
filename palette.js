@@ -9,9 +9,10 @@ module.exports = {
     warning: '#E4B52E',
     danger: '#F88676',
     pinklight: '#fca5a5',
-    darkpint: '#e94560',
+    darkpink: '#e94560',
     dark: '#000',
-    primary: '#e94560',
-    aqua: '#008F95'
+    primary: '#dbc8be',
+    aqua: '#008F95',
+    syscoin: '#243e6d'
   },
 }

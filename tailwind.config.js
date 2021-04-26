@@ -7,6 +7,10 @@ module.exports = {
       boxShadow: {
         '2xl': '0px 32px 64px rgba(0,0,0,0.50), 0px 16px 32px rgba(0,0,0,0.25)',
       },
+      height: {
+        lg: '90vh',
+        card: '450px'
+       } 
     },
     fontFamily: {
       'lora': 'Lora',
