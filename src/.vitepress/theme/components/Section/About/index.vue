@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full text-black flex items-center bg-brand-primary h-auto p-12 max-w-6xl my-16 mx-auto">
+  <div class="w-full text-black flex items-center bg-brand-primary h-auto p-12 max-w-6xl my-16 mx-auto" id="About">
     <div class="w-1/2 flex justify-center items-center">
       <img
         src="../../../assets/images/profile.jpeg"

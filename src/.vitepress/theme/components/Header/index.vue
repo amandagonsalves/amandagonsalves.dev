@@ -1,24 +1,33 @@
 <template>
-  <div class="p-8 fixed top-0 w-full bg-white">
+  <div
+    class="transition-all duration-300 ease-in-out fixed top-0 w-full bg-white z-20"
+    :class="state.isScrolling ? 'p-4' : 'p-6'"
+  >
     <div class="max-w-6xl mx-auto flex justify-between items-center">
-      <h2 class="font-oxygen">
-        amandagonsalves<span class="text-brand-danger">.</span>dev
-      </h2>
+      <img
+        src="../../assets/images/profile.jpeg"
+        alt="profile"
+        class="rounded-full transition-all duration-300 ease-in-out"
+        :class="state.isScrolling ? 'w-8 h-8' : 'w-12 h-12'"
+      >
 
       <nav class="flex items-center">
         <ul class="flex items-center">
-          <li v-for="item in navData" :key="item.link">
-            <a
-              class="mr-8 font-oxygen border-b border-transparent text-center hover:border-brand-darkpink transition-all duration-300 hover:text-brand-darkpink"
-              :href="item.link"
+          <li
+            v-for="item in navData"
+            :key="item.text"
+          >
+            <p
+              class="cursor-pointer mr-8 font-oxygen text-center transition-all duration-300 hover:text-brand-darkpink"
               v-text="item.text"
-            ></a>
+              @click="handleScroll(item.text)"
+            ></p>
           </li>
         </ul>
 
         <button
           type="button"
-          class="font-oxygen border-b border-transparent text-center hover:border-brand-darkpink  hover:text-brand-darkpink transition-all duration-300"
+          class="font-oxygen text-center hover:text-brand-darkpink transition-all duration-300"
         >
           Let's talk &#10132;
         </button>
@@ -28,7 +37,52 @@
 </template>
 
 <script>
+import { onMounted, onUnmounted, reactive } from 'vue';
+
 export default {
+  setup() {
+    const state = reactive({
+      isScrolling: false
+    })
+
+    const handleScrollNav = () => {
+      state.isScrolling = window.scrollY !== 0;
+      console.log('scrollling', window.scrollY, state.isScrolling)
+    };
+
+    onMounted(() => {
+      window.addEventListener('scroll', handleScrollNav);
+    });
+
+    onUnmounted(() => {
+      window.removeEventListener('scroll', handleScrollNav);
+    });
+
+    const html = {
+      get(id) {
+        return document.getElementById(id);
+      },
+    };
+
+    const handleScroll = (id) => {
+      const offsetPosition = Math.max(
+        0,
+        html.get(id).getBoundingClientRect().top - 100
+      );
+
+      console.log('offset', offsetPosition)
+
+      window.scrollBy({
+        top: offsetPosition,
+        behavior: 'smooth',
+      });
+    };
+
+    return {
+      state,
+      handleScroll
+    }
+  },
   computed: {
     navData() {
       return this.$site.themeConfig.nav;

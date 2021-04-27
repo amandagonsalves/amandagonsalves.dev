@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-20 bg-black h-lg flex justify-center items-center flex-col">
+  <div class="mt-20 bg-black h-lg flex justify-center items-center flex-col" id="Home">
     <div class="text-left max-w-2xl">
       <h1 class="text-brand-primary text-6xl mb-6 font-merienda">Amanda Gonsalves</h1>
 

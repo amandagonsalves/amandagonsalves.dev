@@ -3,9 +3,9 @@ module.exports = {
   description: 'My personal website',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'About', link: '/about/' },
-      { text: 'Projects', link: '/projects/' },
+      { text: 'Home' },
+      { text: 'About' },
+      { text: 'Projects' },
     ],
   }
 }

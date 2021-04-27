@@ -4,6 +4,7 @@
     <Home />
     <About />
     <Projects />
+    <Contact />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from './components/Header/index.vue';
 import Home from './components/Section/Home/index.vue';
 import About from './components/Section/About/index.vue';
 import Projects from './components/Section/Projects/index.vue';
+import Contact from './components/Section/Contact/index.vue';
 
 export default {
   components: {
@@ -19,6 +21,7 @@ export default {
     Home,
     About,
     Projects,
+    Contact
   },
 };
 </script>

@@ -5,7 +5,6 @@ import About from './components/Section/About/index.vue';
 
 export default {
   Layout,
-  enhanceApp({ app }) {
-    app.component('About', About)
-  }
+  // enhanceApp({ app }) {
+  // }
 }

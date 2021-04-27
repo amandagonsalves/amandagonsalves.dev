@@ -9,7 +9,7 @@ module.exports = {
       },
       height: {
         lg: '90vh',
-        card: '450px'
+        card: '500px'
        } 
     },
     fontFamily: {
