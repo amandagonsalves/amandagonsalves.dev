@@ -28,7 +28,13 @@
 </template>
 
 <script>
-export default {}
+import Icon from './Icon/index.vue';
+
+export default {
+  components: {
+    Icon
+  }
+}
 </script>
 
 <style>
