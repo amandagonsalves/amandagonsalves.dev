@@ -25,12 +25,12 @@
           </li>
         </ul>
 
-        <button
-          type="button"
+        <a
+          href="mailto:amandagonsalves75@gmail.com"
           class="font-oxygen text-center hover:text-brand-darkpink transition-all duration-300"
         >
           Let's talk &#10132;
-        </button>
+        </a>
       </nav>
     </div>
   </div>
@@ -64,13 +64,12 @@ export default {
     };
 
     const handleScroll = (id) => {
-      const offsetPosition = Math.max(
-        0,
-        html.get(id).getBoundingClientRect().top - 100
-      );
+      const bodyRect = document.body.getBoundingClientRect();
+      const elemRect =  html.get(id).getBoundingClientRect();
+      const offset  = elemRect.top - bodyRect.top;
 
-      window.scrollBy({
-        top: offsetPosition,
+      window.scrollTo({
+        top: offset,
         behavior: 'smooth',
       });
     };

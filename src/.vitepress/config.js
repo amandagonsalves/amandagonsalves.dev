@@ -6,6 +6,7 @@ module.exports = {
       { text: 'Home' },
       { text: 'About' },
       { text: 'Projects' },
+      { text: 'Contact' },
     ],
   }
 }
