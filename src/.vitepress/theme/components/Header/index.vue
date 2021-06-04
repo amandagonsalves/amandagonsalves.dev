@@ -47,7 +47,6 @@ export default {
 
     const handleScrollNav = () => {
       state.isScrolling = window.scrollY !== 0;
-      console.log('scrollling', window.scrollY, state.isScrolling)
     };
 
     onMounted(() => {
@@ -69,8 +68,6 @@ export default {
         0,
         html.get(id).getBoundingClientRect().top - 100
       );
-
-      console.log('offset', offsetPosition)
 
       window.scrollBy({
         top: offsetPosition,

@@ -1,0 +1,45 @@
+<template>
+  <div class="flex items-center gap-4">
+    <li
+      v-for="(name, link) in social"
+      :key="name"
+      class="list-none flex justify-center items-center"
+    >
+      <a :href="link">
+        <Icon
+          :name="name"
+          size="22"
+          :currentColor="isDarkBackground ? 'white' : 'black'"
+        />
+      </a>
+    </li>
+  </div>
+</template>
+
+<script>
+import Icon from "../Icon/index.vue";
+
+export default {
+  props: {
+    isDarkBackground: {
+      type: Boolean,
+      default: false,
+    },
+  },
+  components: {
+    Icon,
+  },
+  setup() {
+    const social = {
+      "https://github.com/amandagonsalves": "Github",
+      "https://www.instagram.com/amandaagons/": "Instagram",
+      "https://www.linkedin.com/in/amanda-gonsalves-a2785a187/": "LinkedIn",
+      "mailto:amandagonsalves75@gmail.com": "Email",
+    };
+
+    return {
+      social,
+    };
+  },
+};
+</script>

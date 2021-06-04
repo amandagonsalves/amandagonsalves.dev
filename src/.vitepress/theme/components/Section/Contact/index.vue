@@ -7,35 +7,16 @@
 
     <p class="mb-6 font-oxygen">amandagonsalves75@gmail.com</p>
 
-    <div class="flex items-center gap-4">
-      <img
-        class="w-8 cursor-pointer hover:bg-brand-primary transition-all duration-300 fill-current"
-        src="../../../assets/icons/github.svg"
-        alt="github"
-      />
-      <img
-        class="w-8 cursor-pointer hover:bg-brand-primary transition-all duration-300 fill-current"
-        src="../../../assets/icons/mail.svg"
-        alt="mail"
-      />
-      <img
-        class="w-8 cursor-pointer hover:bg-brand-primary transition-all duration-300 fill-current"
-        src="../../../assets/icons/linkedin.svg"
-        alt="linkedin"
-      />
-    </div>
+    <Icons />
   </div>
 </template>
 
 <script>
-import Icon from './Icon/index.vue';
+import Icons from '../../Icons/index.vue';
 
 export default {
   components: {
-    Icon
-  }
+    Icons
+  },
 }
 </script>
-
-<style>
-</style>
