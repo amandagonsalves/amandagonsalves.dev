@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mt-20 lines-bg  h-lg flex justify-center items-center flex-col"
+    class="mt-20 lines-bg h-lg flex justify-center items-center flex-col md:p-0 px-8"
     id="Home"
   >
     <div class="text-left max-w-2xl">

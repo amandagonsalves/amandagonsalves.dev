@@ -5,7 +5,11 @@
       :key="name"
       class="list-none flex justify-center items-center"
     >
-      <a :href="link">
+      <a
+        :href="link"
+        :class="name === 'LinkedIn' ? 'mt-1' : 'mt-0'"
+        target="_blank"
+      >
         <Icon
           :name="name"
           size="22"

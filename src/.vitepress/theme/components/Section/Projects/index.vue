@@ -18,13 +18,13 @@
 
     <div class="flex flex-wrap justify-center items-center">
       <div
-        class="border border-gray-300 w-80 h-card relative rounded mx-4 my-6"
+        class="border border-gray-300 w-80 h-card relative rounded mx-4 my-6 rounded-xl"
         v-for="project in projects"
         :key="project.title"
       >
         <div
           :class="project.background"
-          class="w-full h-2/3 flex justify-center items-center text-center"
+          class="w-full h-2/3 flex justify-center items-center text-center rounded-t-xl"
         >
           <img
             :src="project.logo"
@@ -41,7 +41,7 @@
           <small class="my-4 font-oxygen">
             {{ project.stack.join(", ") }}
           </small>
-          <a href="https://syscoin.org/" class="font-oxygen absolute bottom-4 font-bold">
+          <a href="https://syscoin.org/" target="_blank" class="font-oxygen absolute bottom-4 font-bold hover:text-brand-darkpink transition-all duration-300">
             Go to project &#10132;
           </a>
         </div>
