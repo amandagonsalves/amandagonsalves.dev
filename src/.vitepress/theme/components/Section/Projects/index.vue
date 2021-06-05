@@ -1,6 +1,17 @@
 <template>
   <div
-    class="w-full text-black flex flex-col items-center bg-white h-auto p-12 max-w-6xl my-16 mx-auto"
+    class="
+      w-full
+      text-black
+      flex flex-col
+      items-center
+      bg-white
+      h-auto
+      p-12
+      max-w-6xl
+      my-16
+      mx-auto
+    "
     id="Projects"
   >
     <h1 class="text-3xl mb-6 font-merienda">Projects</h1>
@@ -28,12 +39,9 @@
             {{ project.description }}
           </p>
           <small class="my-4 font-oxygen">
-            {{ project.stack.join(', ') }}
+            {{ project.stack.join(", ") }}
           </small>
-          <a
-            href="#"
-            class="font-oxygen absolute bottom-4 font-bold"
-          >
+          <a href="https://syscoin.org/" class="font-oxygen absolute bottom-4 font-bold">
             Go to project &#10132;
           </a>
         </div>

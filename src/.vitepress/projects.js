@@ -1,4 +1,4 @@
-import Syscoin from './theme/assets/images/logo-l.png';
+import Syscoin from './theme/assets/images/logo-sys.png';
 
 export default [
   {
