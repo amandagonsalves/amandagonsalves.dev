@@ -12,7 +12,7 @@
       <h1 class="text-3xl mb-6 font-merienda md:text-left text-center mt-4 md:mt-0">About</h1>
 
       <p class="mb-6 font-oxygen">
-        I'm 18 years old, I like everything about technology, especially programming. In addition, I like to study new languages and the financial market, especially how I can invest my money and all the blockchain ecosystem.
+        I'm 18 years old, I like everything about technology, especially programming. I also like to study new languages and the financial market.
       </p>
 
       <p class="mb-6 font-oxygen">
@@ -20,7 +20,7 @@
       </p>
 
       <p class="mb-6 font-oxygen">
-        At Backend I work with Node (Express). I have experience with relational databases (MySQL) and NoSQL (MongoDB).
+        At backend I have experience with Node (Express), relational databases (MySQL) and NoSQL (MongoDB).
       </p>
     </div>
 

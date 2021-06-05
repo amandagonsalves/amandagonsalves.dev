@@ -8,9 +8,8 @@
         Amanda Gonsalves
       </h1>
 
-      <p class="text-brand-graydark leading-8 font-oxygen mb-8">
-        ​I’m a web developer based in Florianópolis, Brazil. I’ve been studying
-        since 2020 and in 2021 I got my first job as a developer, now I’m
+      <p class="text-brand-graydark leading-8 font-oxygen mb-8 font-bold">
+        ​I’m a self-taught web developer based in Florianópolis, Brazil. I’ve been studying since the beginning of 2020 doing a lot of side projects to improve my knowledge. In 2021, I got my first job as a developer, now I’m
         working hard every day to gain as much knowledge as possible to build my
         career as a software developer.
       </p>
