@@ -1,4 +1,4 @@
-Lucas Leandro
+Amanda Gonsalves
 ----------
 
 My personal website was built using Vitepress (Vite + Vue3) and Tailwind in this repository.
@@ -13,12 +13,12 @@ Installation
 
 #### Clone the project:
 ```
-$ git clone git@github.com:LucasLeandro1204/lucasleandrodev.git
+$ git clone git@github.com:amandagonsalves/amandagonsalves.git
 ```
 
 #### Install all dependencies:
 ```
-$ cd lucasleandrodev
+$ cd amandagonsalves.dev
 $ yarn
 ```
 
