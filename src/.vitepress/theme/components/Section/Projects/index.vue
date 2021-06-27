@@ -29,7 +29,7 @@
           <img
             :src="project.logo"
             alt="syscoin logo"
-            class="w-1/2 h-1/2"
+            class="w-10/12 h-1/2"
           />
         </div>
 
@@ -61,6 +61,3 @@ export default {
   },
 };
 </script>
-
-<style>
-</style>
