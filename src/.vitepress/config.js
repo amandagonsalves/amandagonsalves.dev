@@ -9,7 +9,4 @@ module.exports = {
       { text: 'Contact' },
     ],
   },
-  head: [
-    ['link', { rel: 'canonical', href: 'https://romantic-hawking-695e13.netlify.app/' }],
-  ],
 }
