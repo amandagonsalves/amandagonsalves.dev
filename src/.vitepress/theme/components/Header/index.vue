@@ -32,7 +32,7 @@
             :key="item.text"
           >
             <p
-              class="cursor-pointer mr-8 font-oxygen text-center transition-all duration-300 hover:text-brand-darkpink"
+              class="cursor-pointer mr-8 font-poppins text-center transition-all duration-300 hover:text-brand-darkpink"
               v-text="item.text"
               @click="handleScroll(item.text)"
             ></p>
@@ -43,7 +43,7 @@
           <li>
             <a
               href="/"
-              class="cursor-pointer mr-8 font-oxygen text-center transition-all duration-300 hover:text-brand-darkpink"
+              class="cursor-pointer mr-8 font-poppins text-center transition-all duration-300 hover:text-brand-darkpink"
             >
               Go home
             </a>
@@ -52,7 +52,7 @@
 
         <a
           href="mailto:amandagonsalves75@gmail.com"
-          class="font-oxygen text-center hover:text-brand-darkpink transition-all duration-300"
+          class="font-poppins text-center hover:text-brand-darkpink transition-all duration-300"
         >
           Let's talk &#10132;
         </a>
@@ -75,7 +75,7 @@
                   :key="item.text"
                 >
                   <p
-                    class="cursor-pointer my-2 font-oxygen text-center transition-all duration-300 hover:text-brand-darkpink"
+                    class="cursor-pointer my-2 font-poppins text-center transition-all duration-300 hover:text-brand-darkpink"
                     v-text="item.text"
                     @click="handleScroll(item.text)"
                   ></p>
@@ -84,7 +84,7 @@
                 <li>
                   <a
                     href="mailto:amandagonsalves75@gmail.com"
-                    class="cursor-pointer my-2 font-oxygen text-center transition-all duration-300 hover:text-brand-darkpink"
+                    class="cursor-pointer my-2 font-poppins text-center transition-all duration-300 hover:text-brand-darkpink"
                   >
                     Let's talk
                   </a>

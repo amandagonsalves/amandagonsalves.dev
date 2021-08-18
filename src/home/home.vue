@@ -24,7 +24,7 @@
         class="
           text-brand-graydark
           leading-8
-          font-oxygen
+          font-poppins
           mb-8
           font-bold
           text-sm

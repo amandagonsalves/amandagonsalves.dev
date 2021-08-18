@@ -11,15 +11,15 @@
     <div class="w-full md:w-1/2 px-8 md:px-0">
       <h2 class="text-3xl mb-6 font-merienda md:text-left text-center mt-4 md:mt-0">About</h2>
 
-      <p class="mb-6 font-oxygen">
+      <p class="mb-6 font-poppins">
         I'm 18 years old, I like everything about technology, especially programming. I also like to study new languages and the financial market.
       </p>
 
-      <p class="mb-6 font-oxygen">
+      <p class="mb-6 font-poppins">
         At frontend I work with React, Vue and TypeScript. I do make use of CSS preprocessors like SCSS.
       </p>
 
-      <p class="mb-6 font-oxygen">
+      <p class="mb-6 font-poppins">
         At backend I have experience with Node (Express), relational databases (MySQL) and NoSQL (MongoDB).
       </p>
     </div>

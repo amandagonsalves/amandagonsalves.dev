@@ -40,18 +40,18 @@
         </div>
 
         <div class="px-6 flex flex-col cursor-default">
-          <h2 class="mt-6 mb-2 font-oxygen font-bold">{{ project.title }}</h2>
-          <p class="font-oxygen text-sm">
+          <h2 class="mt-6 mb-2 font-poppins font-bold">{{ project.title }}</h2>
+          <p class="font-poppins text-sm">
             {{ project.description }}
           </p>
-          <small class="my-4 font-oxygen text-brand-blue font-bold">
+          <small class="my-4 font-poppins text-brand-blue font-bold">
             {{ project.stack }}
           </small>
           <a
             :href="project.link"
             target="_blank"
             class="
-              font-oxygen
+              font-poppins
               absolute
               bottom-4
               font-bold
