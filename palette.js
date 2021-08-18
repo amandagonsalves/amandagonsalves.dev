@@ -2,6 +2,7 @@ module.exports = {
   brand: {
     gray: '##f7f7f7',
     graydark: '#C0BCB0',
+    graydarker: '#616161',
     darktransparent: '#000000c7',
     darkpink: '#e94560',
     blue: '#3b77a5',

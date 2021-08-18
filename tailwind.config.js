@@ -10,12 +10,26 @@ module.exports = {
       },
       height: {
         lg: '90vh',
-        card: '500px'
-       } 
+        card: '500px',
+        '104': '45rem'
+      },
+      inset: {
+        'medium': '50%'
+      },
+      width: {
+        '40': '40rem'
+      },
+      maxWidth: {
+        '25': '25rem'
+      },
+      gridTemplateColumns: {
+       'seamless': 'repeat(auto-fit, minmax(200px, 1fr))',
+      }
     },
     fontFamily: {
       'oxygen': 'Oxygen',
-      'merienda': 'Merienda'
-    }
+      'merienda': 'Merienda',
+      'poppins': 'Poppins'
+    },
   }
 }

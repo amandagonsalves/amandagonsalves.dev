@@ -5,7 +5,7 @@
   >
     <div class="max-w-6xl mx-auto flex justify-between items-center">
       <img
-        src="../../assets/images/profile.jpeg"
+        src="/assets/images/profile.jpeg"
         alt="profile"
         class="rounded-full transition-all duration-300 ease-in-out"
         :class="state.isScrolling ? 'w-8 h-8' : 'w-12 h-12'"
@@ -15,7 +15,7 @@
         <button type="button" @click="state.menuOpen = true" class="outline-none">
           <span class="sr-only">Open menu</span>
           <img
-              src="../../assets/icons/menu.png"
+              src="/assets/icons/menu.png"
               alt="menu icon"
               class="transition-all duration-300 md:hidden"
               :class="state.isScrolling ? 'w-6 h-6' : 'w-8 h-8'"
@@ -26,7 +26,7 @@
       <nav
         class="md:flex items-center hidden"
       >
-        <ul class="flex items-center">
+        <ul v-if="!projectRoute" class="flex items-center">
           <li
             v-for="item in navData"
             :key="item.text"
@@ -39,6 +39,17 @@
           </li>
         </ul>
 
+        <ul v-if="projectRoute" class="flex items-center">
+          <li>
+            <a
+              href="/"
+              class="cursor-pointer mr-8 font-oxygen text-center transition-all duration-300 hover:text-brand-darkpink"
+            >
+              Go home
+            </a>
+          </li>
+        </ul>
+
         <a
           href="mailto:amandagonsalves75@gmail.com"
           class="font-oxygen text-center hover:text-brand-darkpink transition-all duration-300"
@@ -47,7 +58,7 @@
         </a>
       </nav>
 
-      <div :class="menuClasses" class="absolute z-10 transition-all duration-300 top-0 inset-x-0 transition transform origin-top-right md:hidden">
+      <div :class="menuClasses" class="absolute z-10 transition-all duration-300 top-0 inset-x-0 transform origin-top-right md:hidden">
         <div class="shadow-lg bg-white">
           <div class="pt-5 pb-6 px-5">
             <button type="button" @click="state.menuOpen = false" class="absolute z-20 top-4 right-4 bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none">
@@ -92,6 +103,12 @@ import { onMounted, onUnmounted } from 'vue';
 import { state } from '../../store';
 
 export default {
+  props: {
+    projectRoute: {
+      type: Boolean,
+      required: false
+    }
+  },
   setup() {
     const handleScrollNav = () => {
       state.isScrolling = window.scrollY !== 0;

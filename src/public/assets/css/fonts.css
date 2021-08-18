@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Oxygen";
+  src: local("Oxygen Regular"), local("Oxygen-Regular"),
+    url("../fonts/Oxygen-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Merienda";
+  src: local("Merienda Regular"), local("Merienda-Regular"),
+    url("../fonts/Merienda-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins Regular"), local("Poppins-Regular"),
+    url("../fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-size: normal;
+}

@@ -45,7 +45,7 @@
             {{ project.description }}
           </p>
           <small class="my-4 font-oxygen text-brand-blue font-bold">
-            {{ project.stack.join(", ") }}
+            {{ project.stack }}
           </small>
           <a
             :href="project.link"
