@@ -22,7 +22,7 @@
 
     <div class="flex flex-wrap justify-center items-center gap-12">
       <div
-        class="shadow-1xl h-card relative rounded mx-4 my-6 rounded-xl w-96"
+        class="shadow-1xl h-card relative rounded mx-4 my-6 rounded-xl w-80 md:w-96"
         v-for="project in projects"
         :key="project.title"
       >

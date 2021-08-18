@@ -3,7 +3,7 @@
     <div class="w-full aspect-w-1 aspect-h-1">
       <div>
         <img
-          class="w-5/6 h-104 object-center object-cover sm:rounded-lg"
+          class="w-full md:w-5/6 h-104 object-center object-cover rounded-lg"
           :src="
             state.selectedImageId > -1 && images[state.selectedImageId]
               ? images[state.selectedImageId]
