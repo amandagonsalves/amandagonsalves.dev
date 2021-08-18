@@ -31,7 +31,7 @@ export default {
 
 <style scoped>
   .lines-bg {
-    background: url('../../../assets/images/geometric.jpg');
+    background: url('/assets/images/geometric.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;

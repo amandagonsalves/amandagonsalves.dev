@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center gap-4">
+  <div :class="center ? 'justify-center flex items-center gap-4' : 'flex items-center gap-4'">
     <li
       v-for="(name, link) in social"
       :key="name"
@@ -29,6 +29,10 @@ export default {
       type: Boolean,
       default: false,
     },
+    center: {
+      type: Boolean,
+      required: false,
+    }
   },
   components: {
     Icon,

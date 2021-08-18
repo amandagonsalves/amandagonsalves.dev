@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "vitepress dev src",
     "build": "vitepress build src",
-    "serve": "vitepress serve src"
+    "serve": "vitepress serve src",
+    "create-project": "hygen projects new"
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.3",
