@@ -90,7 +90,8 @@
           <span class="text-brand-darkpink">performance</span>,
           <span class="text-brand-darkpink">appearance</span>,
           <span class="text-brand-darkpink">accessibility</span> and
-          <span class="text-brand-darkpink">security</span> for the user data.
+          <span class="text-brand-darkpink">security</span> for the user data.<br /><br />
+          You can see this project <a :href="link" target="_blank" class="text-blue-500">here.</a>
         </p>
       </div>
 
@@ -124,6 +125,10 @@ export default {
       type: String,
       required: true,
     },
+    link: {
+      type: String,
+      required: true,
+    }
   },
   setup(props) {
     const lowerAndDash = (string) => {

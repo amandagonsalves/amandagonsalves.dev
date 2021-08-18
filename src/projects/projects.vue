@@ -47,7 +47,6 @@
           </h2>
 
           <p class="font-poppins text-sm text-gray-500 truncate">
-            <!-- {{ format(project.description, 40) }} -->
             {{ project.description }}
           </p>
 
@@ -68,18 +67,6 @@
               :href="project.url"
               class="
                 cursor-pointer
-                font-bold
-                hover:text-brand-darkpink
-                transition-all
-                duration-300
-              "
-            >
-              About this project
-            </a>
-            <a
-              :href="project.link"
-              target="_blank"
-              class="
                 font-bold
                 hover:text-brand-darkpink
                 transition-all
