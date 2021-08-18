@@ -38,9 +38,7 @@
             rounded-t-xl
           "
         >
-          <a :href="project.link" target="_blank" class="w-10/12 h-3/5">
-            <img :src="project.logo" alt="syscoin logo" class="w-full h-full" />
-          </a>
+          <img :src="project.logo" alt="syscoin logo" class="w-10/12 h-3/5" />
         </div>
 
         <div class="px-6 flex flex-col cursor-default font-poppins">
