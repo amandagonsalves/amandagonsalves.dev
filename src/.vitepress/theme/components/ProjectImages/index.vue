@@ -7,12 +7,12 @@
           :src="
             state.selectedImageId > -1 && images[state.selectedImageId]
               ? images[state.selectedImageId].path
-              : images[0].path
+              : images[images.length - 1].path
           "
           :alt="
             images[state.selectedImageId] > -1
               ? images[state.selectedImageId].alt
-              : images[0].alt
+              : images[images.length - 1].alt
           "
         />
       </div>
