@@ -56,10 +56,6 @@
         At backend I have experience with Node (Express), relational databases
         (MySQL) and NoSQL (MongoDB).
       </p>
-
-      <p class="mb-6 font-poppins">
-        I also have experience with blockchain using bitcoinjs-lib and doing some side projects using Solidity and Web3.
-      </p>
     </div>
   </div>
 </template>
