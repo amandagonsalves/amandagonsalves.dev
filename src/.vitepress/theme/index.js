@@ -1,5 +1,6 @@
 import '../../public/assets/css/tailwind.css';
 import '../../public/assets/css/fonts.css';
+import 'animate.css';
 import Layout from './Layout.vue';
 import Header from './components/Header/index.vue';
 import Title from './components/Header/Title/index.vue';

@@ -73,7 +73,7 @@
                 duration-300
               "
             >
-              Go to project &#10132;
+              Go to project &#10140;
             </a>
           </div>
         </div>

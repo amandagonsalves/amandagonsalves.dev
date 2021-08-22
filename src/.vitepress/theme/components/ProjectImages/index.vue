@@ -1,25 +1,14 @@
 <template>
   <div class="flex md:flex-row flex-col gap-6">
-    <div class="w-full aspect-w-1 aspect-h-1">
-      <div>
-        <img
-          class="w-full md:w-5/6 h-104 object-center object-cover rounded-lg"
-          :src="
-            state.selectedImageId > -1 && images[state.selectedImageId]
-              ? images[state.selectedImageId]
-              : images[0]
-          "
-          alt="project image"
-        />
-      </div>
-    </div>
-
     <div class="w-full max-w-2xl mx-auto lg:max-w-none">
-      <ul class="grid grid-cols-4 gap-2 auto-rows-auto grid-cols-images" v-if="images">
+      <ul
+        class="grid grid-cols-4 gap-2 auto-rows-auto grid-cols-images gallery"
+        v-if="images"
+      >
         <li
           class="
             relative
-            h-24
+            h-40
             bg-white
             rounded-md
             flex
@@ -38,9 +27,7 @@
           :key="image"
           @click="selectImage(index)"
         >
-          <span class="sr-only">
-            project image
-          </span>
+          <span class="sr-only"> project image </span>
           <span class="absolute inset-0 rounded-md overflow-hidden">
             <img
               :src="image"
@@ -61,12 +48,26 @@
       </ul>
     </div>
 
-    
+    <div class="relative w-full aspect-w-1 aspect-h-1">
+      <div>
+        <svg @click="previous" :class="{'hidden': state.selectedImageId === 0}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff4d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="select-none cursor-pointer absolute top-1/2 left-0 transform rotate-180 h-16 feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        <img
+          class=" w-full h-104 object-center object-cover rounded-lg"
+          :src="
+            state.selectedImageId > -1 && images[state.selectedImageId]
+              ? images[state.selectedImageId]
+              : images[0]
+          "
+          alt="project image"
+        />
+         <svg @click="next" :class="{'hidden': state.selectedImageId === images.length - 1}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff4d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="select-none cursor-pointer absolute top-1/2 right-2 h-16 feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import { onMounted } from "vue";
+import { onMounted, reactive } from "vue";
 import { state } from "../../store";
 
 export default {
@@ -79,6 +80,7 @@ export default {
   },
   setup(props) {
     onMounted(() => {
+      state.selectedImageId = props.images.length - 1;
       console.log("mounted", props.images);
     });
 
@@ -89,20 +91,35 @@ export default {
       state.selectedImageId = id;
     };
 
-    const getRandomSize = (min, max) => {
-      return Math.round(Math.random() * (max - min) + min);
+    const previous = () => {
+      if (state.selectedImageId === 0) {
+        state.selectedImageId = 0;
+
+        return;
+      }
+
+      state.selectedImageId = state.selectedImageId - 1;
+
+      console.log('current id', state.selectedImageId)
     }
 
-    for (let index = 0; index <= 10; index++) {
-      width = getRandomSize(200, 400);
-      height = getRandomSize(200, 400);
+    const next = () => {
+      if (props.images.length - 1 === state.selectedImageId) {
+        state.selectedImageId = props.images.length - 1;
+
+        return;
+      }
+
+      state.selectedImageId = state.selectedImageId + 1;
+
+      console.log('current id', state.selectedImageId)
     }
 
     return {
       selectImage,
       state,
-      width,
-      height
+      next,
+      previous
     };
   },
 };

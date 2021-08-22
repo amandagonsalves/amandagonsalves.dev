@@ -10,6 +10,9 @@ module.exports = {
     ],
   },
   head: [
-    ['link', { rel: 'canonical', href: 'https://romantic-hawking-695e13.netlify.app/' }]
+    ['link', { rel: 'canonical', href: 'https://romantic-hawking-695e13.netlify.app/' }],
+    ['link', { rel: 'stylesheet', href:"https://unpkg.com/vueperslides/dist/vueperslides.css" }],
+    ['script', { src: 'https://unpkg.com/vueperslides' }],
+    ['script', { src: 'https://unpkg.com/vue' }]
   ]
 }

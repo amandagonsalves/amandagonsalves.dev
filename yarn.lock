@@ -130,6 +130,11 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@chinhpd/vue3-grid-images@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@chinhpd/vue3-grid-images/-/vue3-grid-images-1.0.3.tgz#4df71e815643caf47cc75f17156bba1b812d2afb"
+  integrity sha512-xkJkaHmdHqG8cI/ywaQeCMclE2DDJScBBm0a24ireeMcDA9UUaP7KssQFMVHOOSqd3t1rXeY6lQcz1Vi42Gs0A==
+
 "@docsearch/css@^1.0.0-alpha.28":
   version "1.0.0-alpha.28"
   resolved "https://registry.yarnpkg.com/@docsearch/css/-/css-1.0.0-alpha.28.tgz#c8a2cd8c1bb3a6855c51892e9dbdab5d42fe6e23"
@@ -492,6 +497,11 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
+
+animate.css@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/animate.css/-/animate.css-4.1.1.tgz#614ec5a81131d7e4dc362a58143f7406abd68075"
+  integrity sha512-+mRmCTv6SbCmtYJCN4faJMNFVNN5EuCTTprDTAo7YzIGji2KADmakjVA3+8mVDkZ2Bf09vayB35lSQIex2+QaQ==
 
 ansi-align@^3.0.0:
   version "3.0.0"
@@ -4165,6 +4175,11 @@ vue@^3.0.5:
     "@vue/compiler-dom" "3.0.5"
     "@vue/runtime-dom" "3.0.5"
     "@vue/shared" "3.0.5"
+
+vueperslides@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/vueperslides/-/vueperslides-3.3.2.tgz#35ef057aa569daf8561962e38887539aa9c8a510"
+  integrity sha512-t9YMaOcavVqVXq7XPw2x6cdLLY/NAqMnDZNIQGQn86K4qrFLVtUxGY4zWwDVbBNsa4Pu4wGV3GXZPbRUGvtN3A==
 
 wcwidth@^1.0.1:
   version "1.0.1"
