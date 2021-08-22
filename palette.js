@@ -8,5 +8,6 @@ module.exports = {
     blue: '#3b77a5',
     dark: '#000',
     primary: '#F3CCD5',
+    syscoin: '#101d48'
   },
 }
