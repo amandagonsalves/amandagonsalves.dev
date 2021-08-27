@@ -2,3 +2,8 @@
 base = "."
 command = "yarn build"
 publish = "./src/.vitepress/dist"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
