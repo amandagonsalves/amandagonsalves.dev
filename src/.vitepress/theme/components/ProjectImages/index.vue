@@ -84,9 +84,6 @@ export default {
       console.log("mounted", props.images);
     });
 
-    let width = 0;
-    let height = 0;
-
     const selectImage = (id) => {
       state.selectedImageId = id;
     };
