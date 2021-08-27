@@ -11,6 +11,7 @@ module.exports = {
   },
   head: [
     ['link', { rel: 'canonical', href: 'https://amandagonsalves.dev' }],
+    ['link', { rel: 'canonical', href: 'https://amandagonsalves.dev/index.html' }],
     ['link', { rel: 'stylesheet', href:"https://unpkg.com/vueperslides/dist/vueperslides.css" }],
     ['script', { src: 'https://unpkg.com/vueperslides' }],
     ['script', { src: 'https://unpkg.com/vue' }]
