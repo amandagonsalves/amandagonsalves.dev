@@ -48,7 +48,7 @@
       </ul>
     </div>
 
-    <div class="relative w-full aspect-w-1 aspect-h-1">
+    <div class="relative w-full aspect-w-1 aspect-h-1 rounded" v-if="images[state.selectedImageId]">
       <div>
         <svg @click="previous" :class="{'hidden': state.selectedImageId === 0}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff4d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="select-none cursor-pointer absolute top-1/2 left-0 transform rotate-180 h-16 feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
         <img
