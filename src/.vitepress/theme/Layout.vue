@@ -2,13 +2,9 @@
   <div>
     <div
       v-if="state.menuOpen"
-      class="w-full h-full z-11 bg-brand-darktransparent fixed -pt-60"
+      class="w-full h-full bg-brand-darktransparent fixed -pt-60"
       @click="state.menuOpen = false"
     ></div>
-
-    <template v-if="project" class="text-white mt-36">
-      <!-- <Home :title="project.title" center background="./assets/images/logo-sys-1.jpeg" /> -->
-    </template>
 
     <Content class="wrapper" />
   </div>

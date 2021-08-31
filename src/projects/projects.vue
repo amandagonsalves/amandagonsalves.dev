@@ -5,13 +5,11 @@
       text-brand-dark
       flex flex-col
       items-center
-      bg-white
       h-auto
       p-12
       max-w-6xl
       my-16
       mx-auto
-      relative
       transition-all
       duration-300
       ease-in-out
@@ -22,7 +20,7 @@
 
     <div class="flex flex-wrap justify-center items-center gap-12">
       <div
-        class="shadow-1xl h-card relative rounded mx-4 my-6 rounded-xl w-80 md:w-96"
+        class="shadow-1xl h-card rounded mx-4 my-6 rounded-xl w-80 md:w-96"
         v-for="project in projects"
         :key="project.title"
       >

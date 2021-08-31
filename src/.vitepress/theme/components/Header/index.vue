@@ -8,7 +8,6 @@
       top-0
       w-full
       bg-white
-      z-10
     "
     :class="state.isScrolling ? 'p-4' : 'p-6'"
   >
@@ -92,7 +91,6 @@
         :class="menuClasses"
         class="
           absolute
-          z-10
           transition-all
           duration-300
           top-0
@@ -109,7 +107,6 @@
               @click="state.menuOpen = false"
               class="
                 absolute
-                z-20
                 top-4
                 right-4
                 bg-white
