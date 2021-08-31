@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-center items-center mt-24 font-poppins">
+  <div class="w-full h-full flex flex-col justify-center items-center mt-24 font-poppins">
     <span
       class="mt-36 text-6xl text-gray sm:text-8.5xl select-none leading-none font-extrabold text-gray-600"
     >404
