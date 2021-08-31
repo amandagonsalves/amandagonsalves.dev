@@ -1,10 +1,10 @@
 ---
 title: "Pali Wallet"
-description: "Pali Wallet"
+description: "Pali Wallet - An Extension Wallet for SYS Blockchain"
 head:
 - - meta
   - name: description
-    content: "An Extension Wallet for Sys Blockchain"
+    content: "An Extension Wallet for SYS Blockchain"
 - - meta
   - property: "og:type"
     content: "website"
@@ -13,4 +13,4 @@ head:
     content: "Pali Wallet"
 ---
 
-<ProjectPage title="Pali Wallet" description="An Extension Wallet for Sys Blockchain" link="https://chrome.google.com/webstore/detail/pali-wallet/mgffkfbidihjpoaomajlbgchddlicgpn?hl=pt-br&amp;authuser=0/" />
+<ProjectPage title="Pali Wallet" description="An Extension Wallet for SYS Blockchain" link="https://chrome.google.com/webstore/detail/pali-wallet/mgffkfbidihjpoaomajlbgchddlicgpn?hl=pt-br&amp;authuser=0/" />

@@ -67,7 +67,7 @@
 </template>
 
 <script>
-import { onMounted, reactive } from "vue";
+import { onMounted } from "vue";
 import { state } from "../../store";
 
 export default {
@@ -81,7 +81,6 @@ export default {
   setup(props) {
     onMounted(() => {
       state.selectedImageId = props.images.length - 1;
-      console.log("mounted", props.images);
     });
 
     const selectImage = (id) => {
@@ -96,8 +95,6 @@ export default {
       }
 
       state.selectedImageId = state.selectedImageId - 1;
-
-      console.log('current id', state.selectedImageId)
     }
 
     const next = () => {
@@ -108,8 +105,6 @@ export default {
       }
 
       state.selectedImageId = state.selectedImageId + 1;
-
-      console.log('current id', state.selectedImageId)
     }
 
     return {
