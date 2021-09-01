@@ -9,7 +9,17 @@
       items-center
     "
   >
-    <ul v-if="images" class="flex flex-col md:flex-row justify-center items-center gap-4 max-w-4xl">
+    <ul
+      v-if="images"
+      class="
+        flex flex-col
+        md:flex-row
+        justify-center
+        items-center
+        gap-4
+        max-w-4xl
+      "
+    >
       <li
         v-for="(image, index) of images"
         :key="image"
@@ -39,16 +49,15 @@
         transform
         origin-top-right
         h-4/5
+        bg-brand-bluetransparent
         z-20
+        w-30
       "
     >
       <div
         class="
           relative
           h-full
-          w-30
-          p-12
-          bg-brand-bluetransparent
           shadow-lg
           rounded-md
           flex
@@ -94,9 +103,10 @@
             />
           </svg>
         </button>
+
         <svg
           @click="previous"
-          :class="{ hidden: state.selectedImageId === 0 }"
+          :class="[state.selectedImageId === 0 && 'hidden']"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="none"
@@ -109,10 +119,12 @@
             cursor-pointer
             absolute
             top-1/2
-            left-0
+            left-16
+            sm:left-0
             transform
             rotate-180
-            h-16
+            h-12
+            md:h-16
             feather feather-chevron-right
           "
         >
@@ -127,7 +139,7 @@
 
         <svg
           @click="next"
-          :class="{ hidden: state.selectedImageId === images.length - 1 }"
+          :class="[state.selectedImageId === images.length - 1 && 'hidden']"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="none"
@@ -140,123 +152,39 @@
             cursor-pointer
             absolute
             top-1/2
-            right-2
-            h-16
+            right-16
+            sm:right-2
+            h-12
+            md:h-16
             feather feather-chevron-right
           "
         >
           <polyline points="9 18 15 12 9 6"></polyline>
         </svg>
       </div>
-    </div>
 
-    <!-- <div class="w-full max-w-2xl mx-auto lg:max-w-none">
-      <ul class="flex justify-around item-center gap-4" v-if="images">
+      <ul
+        v-if="images"
+        class="p-4 hidden md:flex justify-center items-center gap-4 max-w-4xl"
+      >
         <li
-          class="
-            my-4
-            h-40
-            bg-white
-            rounded-md
-            flex
-            items-center
-            justify-center
-            text-sm
-            font-medium
-            uppercase
-            text-gray-900
-            cursor-pointer
-            hover:bg-gray-50
-            focus:outline-none
-            focus:ring focus:ring-offset-4 focus:ring-opacity-50
-          "
           v-for="(image, index) of images"
           :key="image"
           @click="selectImage(index)"
         >
-          <span class="sr-only"> project image </span>
-          <span class="rounded-md overflow-hidden">
-            <img
-              :src="image"
-              alt="project image"
-              class="w-full h-full object-center object-cover"
-            />
-          </span>
-          <span
+          <img
+            :src="image"
+            alt="project image"
             :class="[
               state.selectedImageId === index
-                ? 'ring-brand-darkpink'
-                : 'ring-transparent',
-              'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none',
+                ? 'border-2 border-brand-darkpink'
+                : 'border-2 border-brand-darktransparent ',
             ]"
-            aria-hidden="true"
+            class="w-12 h-12 rounded-md cursor-pointer"
           />
         </li>
       </ul>
-    </div> -->
-
-    <!-- <div
-      class="w-full aspect-w-1 aspect-h-1 rounded rounded"
-      v-if="images[state.selectedImageId]"
-    >
-      <div>
-        <svg
-          @click="previous"
-          :class="{ hidden: state.selectedImageId === 0 }"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="#ffffff4d"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="
-            select-none
-            cursor-pointer
-            absolute
-            top-1/2
-            left-0
-            transform
-            rotate-180
-            h-16
-            feather feather-chevron-right
-          "
-        >
-          <polyline points="9 18 15 12 9 6"></polyline>
-        </svg>
-        <img
-          class="w-full h-104 object-center object-cover rounded-lg"
-          :src="
-            state.selectedImageId > -1 && images[state.selectedImageId]
-              ? images[state.selectedImageId]
-              : images[0]
-          "
-          alt="project image"
-        />
-        <svg
-          @click="next"
-          :class="{ hidden: state.selectedImageId === images.length - 1 }"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="#ffffff4d"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="
-            select-none
-            cursor-pointer
-            absolute
-            top-1/2
-            right-2
-            h-16
-            feather feather-chevron-right
-          "
-        >
-          <polyline points="9 18 15 12 9 6"></polyline>
-        </svg>
-      </div>
-    </div> -->
+    </div>
   </div>
 </template>
 
