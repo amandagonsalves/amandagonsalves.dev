@@ -14,10 +14,12 @@ module.exports = {
         '104': '45rem'
       },
       inset: {
-        'medium': '50%'
+        'medium': '50%',
+        '1/5': '10%'
       },
       width: {
-        '40': '40rem'
+        '40': '40rem',
+        '30': '30rem'
       },
       maxWidth: {
         '25': '25rem'
