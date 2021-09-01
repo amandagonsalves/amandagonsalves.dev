@@ -11,7 +11,8 @@ module.exports = {
       height: {
         lg: '90vh',
         card: '500px',
-        '104': '45rem'
+        '104': '45rem',
+        'full-h': '100vh'
       },
       inset: {
         'medium': '50%',

@@ -9,6 +9,7 @@ module.exports = {
     dark: '#000',
     primary: '#F3CCD5',
     syscoin: '#101d48',
-    whitetransparent:'#ffffff4d'
+    whitetransparent:'#ffffff4d',
+    bluetransparent: '#1221368c'
   },
 }

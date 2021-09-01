@@ -1,9 +1,9 @@
 <template>
   <div>
     <div
-      v-if="state.menuOpen"
-      class="w-full h-full bg-brand-darktransparent fixed -pt-60"
-      @click="state.menuOpen = false"
+      v-if="state.menuOpen || state.selectedImageId > -1"
+      class="w-full h-full-h bg-brand-darktransparent fixed inset-y-0 z-10"
+      @click="setState"
     ></div>
 
     <Content class="wrapper" />
@@ -29,9 +29,15 @@ export default {
     const route = useRoute();
     const project = computed(() => postForPath(route.path));
 
+    const setState = () => {
+      state.menuOpen = false;
+      state.selectedImageId = -1;
+    }
+
     return {
       project,
       state,
+      setState
     };
   },
 };

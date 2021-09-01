@@ -9,7 +9,7 @@
       items-center
     "
   >
-    <ul v-if="images" class="flex justify-center items-center gap-4 max-w-4xl">
+    <ul v-if="images" class="flex flex-col md:flex-row justify-center items-center gap-4 max-w-4xl">
       <li
         v-for="(image, index) of images"
         :key="image"
@@ -39,9 +39,61 @@
         transform
         origin-top-right
         h-4/5
+        z-20
       "
     >
-      <div class="relative h-full w-30 p- bg-gray-100 shadow-lg rounded-md flex justify-center items-center">
+      <div
+        class="
+          relative
+          h-full
+          w-30
+          p-12
+          bg-brand-bluetransparent
+          shadow-lg
+          rounded-md
+          flex
+          justify-center
+          items-center
+        "
+      >
+        <button
+          type="button"
+          @click="state.selectedImageId = -1"
+          class="
+            absolute
+            top-4
+            right-4
+            bg-brand-bluetransparent
+            rounded-md
+            p-2
+            inline-flex
+            items-center
+            justify-center
+            text-gray-400
+            hover:text-gray-500
+            hover:bg-gray-300
+            focus:outline-none
+            transition-all
+            duration-300
+          "
+        >
+          <span class="sr-only">Close menu</span>
+          <svg
+            class="h-6 w-6"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
         <svg
           @click="previous"
           :class="{ hidden: state.selectedImageId === 0 }"

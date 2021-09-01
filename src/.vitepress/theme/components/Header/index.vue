@@ -1,5 +1,6 @@
 <template>
   <div
+    :class="[state.menuOpen ? 'z-20' : 'z-0', state.isScrolling ? 'p-4' : 'p-6', state.selectedImageId > -1 ? 'z-0' : 'z-20']"
     class="
       transition-all
       duration-300
@@ -9,7 +10,6 @@
       w-full
       bg-white
     "
-    :class="state.isScrolling ? 'p-4' : 'p-6'"
   >
     <div class="max-w-6xl mx-auto flex justify-between items-center">
       <img
@@ -90,7 +90,7 @@
       <div
         :class="menuClasses"
         class="
-          absolute
+          fixed
           transition-all
           duration-300
           top-0
@@ -98,6 +98,7 @@
           transform
           origin-top-right
           md:hidden
+          z-20
         "
       >
         <div class="shadow-lg bg-white">
