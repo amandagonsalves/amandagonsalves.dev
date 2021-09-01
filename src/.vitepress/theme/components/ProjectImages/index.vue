@@ -44,6 +44,7 @@
       class="
         fixed
         inset-y-1/5
+        md:inset-y-1/6
         transition-all
         duration-300
         transform

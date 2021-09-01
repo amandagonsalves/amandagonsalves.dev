@@ -16,6 +16,7 @@ module.exports = {
       },
       inset: {
         'medium': '50%',
+        '1/6': '5%',
         '1/5': '10%'
       },
       width: {
