@@ -44,8 +44,8 @@ export default {
     const resizeHandler = () => {
       if (
         window.innerWidth > 600 ||
-        document.documentElement.clientWidth > 600 ||
-        document.body.clientWidth > 600
+        window.document.documentElement.clientWidth > 600 ||
+        window.document.body.clientWidth > 600
       ) {
         state.menuOpen = false;
         state.selectedImageId = -1;
@@ -60,32 +60,10 @@ export default {
       window.removeEventListener("resize", resizeHandler);
     })
 
-    const { offsetWidth, offsetHeight } = document.querySelector("#app");
-
-    const windowObj = reactive({
-      innerWidth: window.innerWidth,
-      clientWidth: document.documentElement.clientWidth,
-      bodyClientWidth: document.body.clientWidth,
-    });
-
     const setState = () => {
       state.menuOpen = false;
       state.selectedImageId = -1;
     };
-
-    watch(
-      () => windowObj,
-      (windowObj, prev) => {
-        console.log("window obj", windowObj, prev);
-        if (
-          window.innerWidth > 600 ||
-          document.documentElement.clientWidth > 600 ||
-          document.body.clientWidth > 600
-        ) {
-          setState();
-        }
-      }
-    );
 
     const route = useRoute();
     const project = computed(() => postForPath(route.path));
@@ -94,8 +72,6 @@ export default {
       project,
       state,
       setState,
-      offsetWidth,
-      offsetHeight,
     };
   },
 };
