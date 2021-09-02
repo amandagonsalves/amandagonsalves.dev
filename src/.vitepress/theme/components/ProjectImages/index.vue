@@ -12,7 +12,7 @@
     <ul
       v-if="images"
       class="
-        grid grid-cols-3
+        grid grid-cols-2
         sm:grid-cols-4
         md:grid-cols-9
         justify-center
@@ -25,7 +25,6 @@
         v-for="(image, index) of images"
         :key="image"
         @click="selectImage(index)"
-        class=""
       >
         <img
           :src="image"
@@ -217,6 +216,10 @@ export default {
     });
 
     const selectImage = (id) => {
+      if (window.innerWidth < 600 || document.documentElement.clientWidth < 600 || document.body.clientWidth < 600) {
+        return;
+      }
+      
       state.selectedImageId = id;
     };
 
