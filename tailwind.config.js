@@ -3,6 +3,9 @@ const palette = require('./palette');
 module.exports = {
   theme: {
     extend: {
+      flex: {
+        '25': '25%'
+      },
       colors: palette,
       boxShadow: {
         '2xl': '0px 32px 64px rgba(0,0,0,0.50), 0px 16px 32px rgba(0,0,0,0.25)',
@@ -12,7 +15,7 @@ module.exports = {
         lg: '90vh',
         card: '500px',
         '104': '45rem',
-        'full-h': '100vh'
+        'full-h': '100vh',
       },
       inset: {
         'medium': '50%',
@@ -24,7 +27,8 @@ module.exports = {
         '30': '30rem'
       },
       maxWidth: {
-        '25': '25rem'
+        '25': '25rem',
+        '25p': '25%'
       },
       gridTemplateColumns: {
        'seamless': 'repeat(auto-fit, minmax(200px, 1fr))',

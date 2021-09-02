@@ -12,6 +12,7 @@
     "create-project": "hygen projects new"
   },
   "dependencies": {
+    "@morioh/v-lightbox": "^1.0.3",
     "@tailwindcss/postcss7-compat": "^2.0.3",
     "animate.css": "^4.1.1",
     "autoprefixer": "^10.2.4",
@@ -22,6 +23,7 @@
     "sass-loader": "^11.0.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
     "vitepress": "^0.12.2",
-    "vue": "^3.0.5"
+    "vue": "^3.0.5",
+    "vue-stack-grid": "^1.2.2"
   }
 }

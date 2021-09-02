@@ -12,8 +12,9 @@
     <ul
       v-if="images"
       class="
-        flex flex-col
-        md:flex-row
+        grid grid-cols-3
+        sm:grid-cols-4
+        md:grid-cols-5
         justify-center
         items-center
         gap-4
@@ -24,6 +25,7 @@
         v-for="(image, index) of images"
         :key="image"
         @click="selectImage(index)"
+        class=""
       >
         <img
           :src="image"
@@ -33,7 +35,7 @@
               ? 'border-2 border-brand-darkpink'
               : 'border-2 border-brand-darktransparent ',
           ]"
-          class="w-full h-full rounded-md cursor-pointer"
+          class="w-full h-1/3 rounded-md cursor-pointer"
         />
       </li>
     </ul>
@@ -192,12 +194,8 @@
 <script>
 import { onMounted } from "vue";
 import { state } from "../../store";
-import Modal from "../Modal/index.vue";
 
 export default {
-  components: {
-    Modal,
-  },
   props: {
     images: {
       type: Array,
