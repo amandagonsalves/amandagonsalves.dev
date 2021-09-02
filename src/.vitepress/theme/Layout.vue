@@ -2,7 +2,7 @@
   <div>
     <div
       v-if="state.menuOpen || state.selectedImageId > -1"
-      class="w-full h-full-h bg-brand-darktransparent fixed inset-y-0 z-10"
+      class="block md:hidden w-full h-full-h bg-brand-darktransparent fixed inset-y-0 z-10"
       @click="setState"
     ></div>
 
