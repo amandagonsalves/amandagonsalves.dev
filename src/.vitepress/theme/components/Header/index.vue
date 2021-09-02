@@ -159,7 +159,7 @@
                 </li>
               </ul>
 
-              <ul v-if="projectRoute" class="flex items-center justify-center">
+              <ul v-if="projectRoute" class="flex items-center justify-center mb-4">
                 <li>
                   <a
                     href="/"
