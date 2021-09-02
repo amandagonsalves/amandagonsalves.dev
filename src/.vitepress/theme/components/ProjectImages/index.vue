@@ -78,7 +78,7 @@
             bg-brand-bluetransparent
             rounded-md
             p-2
-            md:inline-flex
+            sm:inline-flex
             items-center
             justify-center
             text-gray-400
@@ -219,7 +219,7 @@ export default {
       if (window.innerWidth < 600 || document.documentElement.clientWidth < 600 || document.body.clientWidth < 600) {
         return;
       }
-      
+
       state.selectedImageId = id;
     };
 
