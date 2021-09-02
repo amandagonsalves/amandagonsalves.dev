@@ -83,7 +83,7 @@
             duration-300
           "
         >
-          Let's talk &#10132;
+          Let's talk
         </a>
       </nav>
 
@@ -188,7 +188,7 @@
                   duration-300
                 "
               >
-                Let's talk &#10132;
+                Let's talk
               </a>
             </div>
           </div>
