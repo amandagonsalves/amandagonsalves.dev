@@ -14,7 +14,7 @@
       class="
         grid grid-cols-3
         sm:grid-cols-4
-        md:grid-cols-5
+        md:grid-cols-9
         justify-center
         items-center
         gap-4
@@ -35,7 +35,7 @@
               ? 'border-2 border-brand-darkpink'
               : 'border-2 border-brand-darktransparent ',
           ]"
-          class="w-full h-1/3 rounded-md cursor-pointer"
+          class="w-full h-1/3 md:h-32 rounded-md cursor-pointer"
         />
       </li>
     </ul>
