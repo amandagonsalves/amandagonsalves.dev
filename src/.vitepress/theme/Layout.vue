@@ -1,8 +1,13 @@
 <template>
   <div>
     <div
-      v-if="state.menuOpen || state.selectedImageId > -1"
-      :class="[state.menuOpen && 'md:hidden']"
+      v-if="state.menuOpen"
+      class="w-full h-full-h block md:hidden bg-brand-darktransparent fixed inset-y-0 z-10"
+      @click="setState"
+    ></div>
+
+    <div
+      v-if="state.selectedImageId > -1"
       class="w-full h-full-h bg-brand-darktransparent fixed inset-y-0 z-10"
       @click="setState"
     ></div>
