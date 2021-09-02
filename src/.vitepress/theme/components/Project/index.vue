@@ -46,8 +46,6 @@
           >(Decentralized applications),
           <span class="text-brand-darkpink">Non-Fungible Tokens </span> (NFT’s)
           and all Syscoin-Core interfaces. <br /><br />
-          Currently, there are
-          <span class="text-brand-darkpink">--</span> people using Pali Wallet.
         </p>
 
         <h2
