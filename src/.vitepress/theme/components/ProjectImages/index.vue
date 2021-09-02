@@ -75,10 +75,11 @@
             absolute
             top-4
             right-4
+            hidden
             bg-brand-bluetransparent
             rounded-md
             p-2
-            inline-flex
+            md:inline-flex
             items-center
             justify-center
             text-gray-400
