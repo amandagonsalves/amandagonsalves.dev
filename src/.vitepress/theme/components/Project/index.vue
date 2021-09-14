@@ -2,7 +2,7 @@
   <div class="mt-24 bg-gray-100">
     <Header projectRoute />
 
-    <div class="p-2 md:p-8 max-w-6xl mx-auto">
+    <div class="p-2 md:p-8 max-w-4xl mx-auto">
       <div class="px-4 font-poppins py-12">
         <div class="flex justify-start items-end border-b border-gray-200 pb-6">
           <h1 class="text-brand-darkpink text-5xl md:text-6xl font-merienda">
