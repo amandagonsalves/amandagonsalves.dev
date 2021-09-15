@@ -41,6 +41,12 @@
           and all Syscoin-Core interfaces. <br /><br />
         </p>
 
+        <img
+          src="/assets/images/projects/pali-wallet/mockupstart.png"
+          alt="mockup"
+          class="w-full my-4 sm:my-12"
+        />
+
         <h2 class="text-brand-graydarker text-2xl my-12 font-poppins">
           How was it to participate and develop this project?
         </h2>
@@ -85,10 +91,12 @@
           You can see this project
           <a :href="link" target="_blank" class="text-blue-500">here.</a>
         </p>
-      </div>
 
-      <div class="max-w-6xl">
-        <Images :images="images" />
+        <img
+          src="/assets/images/projects/pali-wallet/mockup2.png"
+          alt="mockup"
+          class="w-full my-4 sm:my-8"
+        />
       </div>
     </div>
   </div>
