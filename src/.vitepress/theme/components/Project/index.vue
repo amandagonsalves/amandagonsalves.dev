@@ -8,10 +8,35 @@
           <h1 class="text-brand-darkpink text-5xl md:text-6xl font-merienda">
             {{ title }}
           </h1>
-          <small class="text-gray-400 ml-2">{{ description }}</small>
+          <small class="text-gray-400 ml-2 font-bold">{{ description }}</small>
         </div>
 
-        <p></p>
+        <div
+          class="
+            flex
+            justify-between
+            w-full
+            mt-4
+            items-center
+            font-poppins
+            text-gray-400
+            font-bold
+          "
+        >
+          <ul class="flex justify-start items-center gap-8">
+            <li>
+              <small>Blockchain</small>
+            </li>
+            <li>
+              <small>DeFi</small>
+            </li>
+            <li>
+              <small>Software development</small>
+            </li>
+          </ul>
+
+          <small>2021</small>
+        </div>
 
         <h2 class="text-brand-graydarker text-1xl text-2xl my-12 font-poppins">
           What is Pali Wallet?
@@ -19,7 +44,7 @@
 
         <p>
           Pali Wallet is a
-          <span class="text-brand-darkpink">browser extension</span> that can
+          <span class="text-brand-darkpink">browser extension</span> developed by <a target="_blank" href="https://pollum.io/" class="text-brand-darkpink">Pollum Labs</a> that can
           interact with distributed applications accessing Syscoin blockchain
           directly from your browser. <br /><br />
           Using syscoinjs-lib, the Syscoin dApps can read all the data available
