@@ -76,6 +76,63 @@
           </div>
         </div>
       </div>
+
+      <div
+        class="shadow-1xl h-card rounded mx-4 my-6 rounded-xl w-80 md:w-96"
+      >
+        <div
+          class="
+            w-full
+            h-2/3
+            flex
+            justify-center
+            items-center
+            text-center
+            rounded-t-xl
+            bg-black
+          "
+        >
+          <Icon name="github" size=170 currentColor="white" />
+        </div>
+
+        <div class="px-6 flex flex-col cursor-default font-poppins">
+          <h2 class="mt-6 mb-2 font-bold text-brand-graydarker">
+            GitHub
+          </h2>
+
+          <p class="font-poppins text-sm text-gray-500 truncate">
+            See more projects on GitHub.
+          </p>
+
+          <small class="my-4 text-brand-blue font-bold">
+            react, vue, node
+          </small>
+
+          <div
+            class="
+              flex
+              items-center
+              justify-between
+              w-full
+              text-brand-graydarker
+            "
+          >
+            <a
+              class="
+                cursor-pointer
+                font-bold
+                hover:text-brand-darkpink
+                transition-all
+                duration-300
+              "
+              href="https://github.com/amandagonsalves"
+              target="_blank"
+            >
+              Go to GitHub &#10140;
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -83,7 +140,6 @@
 <script>
 import Icon from "../.vitepress/theme/components/Icon/index.vue";
 import projects from "../.vitepress/projects";
-import { format } from '../utils/helpers';
 
 export default {
   components: {
@@ -92,7 +148,6 @@ export default {
   setup() {
     return {
       projects,
-      format
     };
   },
 };
