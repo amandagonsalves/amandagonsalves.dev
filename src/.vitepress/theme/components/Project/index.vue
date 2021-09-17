@@ -114,7 +114,7 @@
           <span class="text-brand-darkpink">security</span> for the user
           data.<br /><br />
           You can see this project
-          <a :href="link" target="_blank" class="text-blue-500">here.</a>
+          <a :href="link" target="_blank" class="text-blue-500">here</a> and also <a class="text-blue-500" href="https://github.com/syscoin/pali_wallet" target="_blank">check Pali code on GitHub</a>.
         </p>
 
         <img
