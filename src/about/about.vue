@@ -60,9 +60,9 @@
 
       <p class="mb-6 font-poppins">
         At Dapp level, I use Web3.js with front-end frameworks. I also developed
-        an extension wallet (<a href="https://paliwallet.com/" target="_blank" >paliwallet.com</a>) along with the Syscoin blockchain
-        during this year, where I have been working on top of the bitcoin.js and
-        syscoinjs-lib.js libraries, which is deepening my knowledge of the
+        an extension wallet (<a class="text-blue-800" href="https://paliwallet.com/" target="_blank" >paliwallet.com</a>) along with the Syscoin blockchain
+        during this year, where I have been working on top of the <a href="https://github.com/bitcoinjs/bitcoinjs-lib" target="_blank" class="text-blue-800">bitcoin.js</a> and
+        <a href="https://github.com/syscoin/syscoinjs-lib" class="text-blue-800" target="_blank">syscoinjs-lib.js</a> libraries, which is deepening my knowledge of the
         structure of blockchains itself and allowing me to build on top of any
         bitcoin chain as well.
       </p>
