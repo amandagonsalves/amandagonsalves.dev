@@ -53,9 +53,9 @@
 
       <p class="mb-6 font-poppins">
         I have experience working on top of the Ethereum ecosystem. Developing
-        from the protocol level (with solidity as the main language, always
-        using cutting edge tools to improve the process like truffles or
-        helmet).
+        from the protocol level (with Solidity as the main language, always
+        using cutting edge tools to improve the process like Truffle or
+        Hardhat).
       </p>
 
       <p class="mb-6 font-poppins">
@@ -64,7 +64,7 @@
         during this year, where I have been working on top of the <a href="https://github.com/bitcoinjs/bitcoinjs-lib" target="_blank" class="text-blue-800">bitcoin.js</a> and
         <a href="https://github.com/syscoin/syscoinjs-lib" class="text-blue-800" target="_blank">syscoinjs-lib.js</a> libraries, which is deepening my knowledge of the
         structure of blockchains itself and allowing me to build on top of any
-        bitcoin chain as well.
+        Bitcoin chain as well.
       </p>
 
       <p class="mb-6 font-poppins">
