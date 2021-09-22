@@ -41,7 +41,7 @@ export default {
     const social = {
       "https://github.com/amandagonsalves": "Github",
       "https://www.linkedin.com/in/amanda-gonsalves-a2785a187/": "LinkedIn",
-      "mailto:amandagonsalves75@gmail.com": "Email",
+      "mailto:amandagonsalvesdev@gmail.com": "Email",
     };
 
     return {
