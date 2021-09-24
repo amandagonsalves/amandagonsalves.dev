@@ -74,7 +74,7 @@
         </ul>
 
         <a
-          href="mailto:amandagonsalves75@gmail.com"
+          href="mailto:amandagonsalvesdev@gmail.com"
           class="
             font-poppins
             text-center
