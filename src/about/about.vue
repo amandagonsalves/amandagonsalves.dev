@@ -78,7 +78,7 @@
       </p>
 
       <img
-        src="/assets/images/stack.png"
+        src="/assets/images/stack2.png"
         alt="profile"
         class="rounded-full w-full mt-12"
       />
