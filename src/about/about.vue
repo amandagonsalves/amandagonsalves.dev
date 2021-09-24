@@ -3,7 +3,6 @@
     class="
       w-full
       text-brand-dark
-
       items-center
       bg-brand-primary
       h-auto
@@ -24,17 +23,8 @@
       />
     </div> -->
 
-    <div class="w-full md:w-full px-8 md:px-0 max-w-2xl text-center m-auto">
-      <h2
-        class="
-          text-3xl
-          mb-8
-          font-merienda
-          text-center
-          mt-4
-          md:mt-0
-        "
-      >
+    <div class="w-full md:w-full px-8 md:px-0 max-w-2xl text-left m-auto">
+      <h2 class="text-3xl mb-8 font-merienda text-center mt-4 md:mt-0">
         About
       </h2>
 
@@ -57,17 +47,41 @@
 
       <p class="mb-6 font-poppins">
         At dApp level, I use web3.js with front-end frameworks. I also developed
-        an extension wallet (<a class="text-blue-800" href="https://paliwallet.com/" target="_blank" >paliwallet.com</a>) along with the Syscoin blockchain
-        during this year, where I have been working on top of the <a href="https://github.com/bitcoinjs/bitcoinjs-lib" target="_blank" class="text-blue-800">bitcoinjs-lib</a> and
-        <a href="https://github.com/syscoin/syscoinjs-lib" class="text-blue-800" target="_blank">syscoinjs-lib</a> libraries, which is deepening my knowledge of the
-        structure of blockchain itself and allowing me to build on top of any
-        Bitcoin chain as well.
+        an extension wallet (<a
+          class="text-blue-800"
+          href="https://paliwallet.com/"
+          target="_blank"
+          >paliwallet.com</a
+        >) along with the Syscoin blockchain during this year, where I have been
+        working on top of the
+        <a
+          href="https://github.com/bitcoinjs/bitcoinjs-lib"
+          target="_blank"
+          class="text-blue-800"
+          >bitcoinjs-lib</a
+        >
+        and
+        <a
+          href="https://github.com/syscoin/syscoinjs-lib"
+          class="text-blue-800"
+          target="_blank"
+          >syscoinjs-lib</a
+        >
+        libraries, which is deepening my knowledge of the structure of
+        blockchain itself and allowing me to build on top of any Bitcoin chain
+        as well.
       </p>
 
       <p class="mb-6 font-poppins">
         I’m always open to new challenges and ready to learn everything I can to
         do a good job and be better every day.
       </p>
+
+      <img
+        src="/assets/images/stack.png"
+        alt="profile"
+        class="rounded-full w-full mt-12"
+      />
     </div>
   </div>
 </template>
