@@ -42,7 +42,11 @@
         I have experience working on top of the Ethereum ecosystem. Developing
         from the protocol level (with Solidity as the main language, always
         using cutting edge tools to improve the process like Truffle or
-        Hardhat) to the dApp level using web3.js with front-end frameworks. I also developed
+        Hardhat) to the dApp level using web3.js with front-end frameworks. 
+      </p>
+
+      <p class="mb-6 font-poppins">
+        I also developed
         an extension wallet (<a
           class="text-blue-800"
           href="https://paliwallet.com/"
