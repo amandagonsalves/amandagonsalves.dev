@@ -17,4 +17,8 @@ head:
     content: "<%= h.inflection.titleize(title) %>"
 ---
 
-<ProjectPage title="<%= h.inflection.titleize(title) %>" description="<%= h.inflection.titleize(description) %>" link="<%= link %>" />
+<script setup>
+  import Component from '../../.vitepress/theme/components/Project/<%= h.lowerAndDash(title) %>/index.vue';
+</script>
+
+<Component title="<%= h.inflection.titleize(title) %>" description="<%= h.inflection.titleize(description) %>" link="<%= link %>" />

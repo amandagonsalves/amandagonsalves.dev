@@ -10,8 +10,6 @@ import Contact from '../../contact/contact.vue';
 import Footer from './components/Footer/index.vue';
 import NotFound from './NotFound.vue';
 import Home from '../../home/home.vue';
-import Images from './components/ProjectImages/index.vue';
-import ProjectPage from './components/Project/index.vue';
 
 export default {
   Layout,
@@ -23,8 +21,6 @@ export default {
     app.component('About', About),
     app.component('Projects', Projects),
     app.component('Contact', Contact),
-    app.component('Footer', Footer),
-    app.component('Images', Images),
-    app.component('ProjectPage', ProjectPage)
+    app.component('Footer', Footer)
   }
 }

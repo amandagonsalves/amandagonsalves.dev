@@ -128,16 +128,13 @@
 </template>
 
 <script>
-import Header from "../Header/index.vue";
-import Images from "../ProjectImages/index.vue";
-import Contact from "../../../../contact/contact.vue";
-import Footer from "../Footer/index.vue";
-import projectsFiles from "../../../../public/assets/images/projects/index.js";
+import Header from "../../Header/index.vue";
+import Contact from "../../../../../contact/contact.vue";
+import Footer from "../../Footer/index.vue";
 
 export default {
   components: {
     Header,
-    Images,
     Contact,
     Footer,
   },
@@ -154,25 +151,6 @@ export default {
       type: String,
       required: true,
     },
-  },
-  setup(props) {
-    const lowerAndDash = (string) => {
-      const lower = string.toLowerCase();
-      const lowerAndDash = lower.replace(/([,?;:\\./ ])/g, "-");
-      const replaceDoubleDash = lowerAndDash.replace(/([-]{2})/g, "-");
-
-      return replaceDoubleDash;
-    };
-
-    let images;
-
-    if (projectsFiles[lowerAndDash(props.title)]) {
-      images = projectsFiles[lowerAndDash(props.title)].files;
-    }
-
-    return {
-      images,
-    };
   },
 };
 </script>

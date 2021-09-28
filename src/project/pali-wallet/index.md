@@ -13,4 +13,8 @@ head:
     content: "Pali Wallet"
 ---
 
-<ProjectPage title="Pali Wallet" description="An Extension Wallet for SYS Blockchain" link="https://paliwallet.com/" />
+<script setup>
+  import PaliWalletComponent from '../../.vitepress/theme/components/Project/pali-wallet/index.vue';
+</script>
+
+<PaliWalletComponent title="Pali Wallet" description="An extension wallet for SYS blockchain." link="https://paliwallet.com/" />
