@@ -15,14 +15,6 @@
     "
     id="About"
   >
-    <!-- <div class="w-1/2 flex justify-center items-center">
-      <img
-        src="/assets/images/kkkkk.png"
-        alt="profile"
-        class="rounded-full w-1/2"
-      />
-    </div> -->
-
     <div class="w-full md:w-full px-8 md:px-0 max-w-2xl text-left m-auto">
       <h2 class="text-3xl mb-8 font-merienda text-center mt-4 md:mt-0">
         About

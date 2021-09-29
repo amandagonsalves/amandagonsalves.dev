@@ -77,11 +77,6 @@
         </h2>
 
         <p>
-          I started to learn about blockchain and cryptocurrencies when I got my
-          first job in a
-          <span class="text-brand-darkpink">crypto market</span> startup based
-          in Florianópolis called Pollum, to help me to understand the project.
-          <br /><br />
           I always had this desire to learn everything I can to do a good job
           and be better every day, so I started to learn about the crypto
           market, blockchain, <span class="text-brand-darkpink">Ethereum</span>,
