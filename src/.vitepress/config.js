@@ -28,5 +28,6 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#ffffff' }],
     ['meta', { name: 'msapplication-TileImag', content: '/assets/icons/favicons/ms-icon-144x144.png' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
+    ['script', { src:"https://www.googletagmanager.com/gtag/js?id=G-KVWWLGWQZ3" }]
   ],
 }
