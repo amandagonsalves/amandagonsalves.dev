@@ -33,7 +33,7 @@ module.exports = {
     [
       '@vuepress/google-analytics',
       {
-        'ga': 'UA-28829952-7' // UA-00000000-0
+        'ga': 'UA-209049245-1' // UA-00000000-0
       }
     ]
   ]
