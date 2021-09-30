@@ -29,12 +29,4 @@ module.exports = {
     ['meta', { name: 'msapplication-TileImag', content: '/assets/icons/favicons/ms-icon-144x144.png' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
   ],
-  plugins: [
-    [
-      '@vuepress/google-analytics',
-      {
-        id: 'G-KVWWLGWQZ3'
-      }
-    ]
-  ]
 }
