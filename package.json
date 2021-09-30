@@ -14,6 +14,7 @@
   "dependencies": {
     "@morioh/v-lightbox": "^1.0.3",
     "@tailwindcss/postcss7-compat": "^2.0.3",
+    "@vuepress/plugin-google-analytics": "^1.8.2",
     "animate.css": "^4.1.1",
     "autoprefixer": "^10.2.4",
     "hygen": "^6.0.4",
