@@ -40,7 +40,7 @@ export default {
   setup() {
     const social = {
       "https://github.com/amandagonsalves": "Github",
-      "https://www.linkedin.com/in/amanda-gonsalves-a2785a187/": "LinkedIn",
+      "https://www.linkedin.com/in/amandagonsalves/": "LinkedIn",
       "mailto:amandagonsalvesdev@gmail.com": "Email",
     };
 
