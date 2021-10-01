@@ -28,6 +28,20 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#ffffff' }],
     ['meta', { name: 'msapplication-TileImag', content: '/assets/icons/favicons/ms-icon-144x144.png' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
+    [
+      'script',
+      {
+        async: true,
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-HRTZ5KMKVJ',
+      },
+    ],
+    [
+      'script',
+      {},
+      [
+        "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-HRTZ5KMKVJ');",
+      ],
+    ],
   ],
   plugins: [
     [
