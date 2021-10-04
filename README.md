@@ -1,7 +1,7 @@
 Amanda Gonsalves
 ----------
 
-My personal website was built using Vitepress (Vite + Vue3) and Tailwind in this repository.
+My personal website made with Vitepress (Vite + Vue3) and Tailwind.
 
 Requirements
 ----------
