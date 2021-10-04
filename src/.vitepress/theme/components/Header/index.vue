@@ -1,6 +1,6 @@
 <template>
   <div
-    :class="[state.menuOpen ? 'z-20' : 'z-0', state.isScrolling ? 'p-4' : 'p-6', state.selectedImageId > -1 ? 'z-0' : 'z-20']"
+    :class="[state.menuOpen ? 'z-20' : 'z-0', state.isScrolling ? 'p-4' : 'p-6']"
     class="
       transition-all
       duration-300

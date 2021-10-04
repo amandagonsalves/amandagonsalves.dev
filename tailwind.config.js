@@ -35,7 +35,6 @@ module.exports = {
       }
     },
     fontFamily: {
-      'oxygen': 'Oxygen',
       'merienda': 'Merienda',
       'poppins': 'Poppins'
     },

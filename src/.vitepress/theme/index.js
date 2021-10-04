@@ -3,7 +3,6 @@ import '../../public/assets/css/fonts.css';
 import 'animate.css';
 import Layout from './Layout.vue';
 import Header from './components/Header/index.vue';
-import Title from './components/Header/Title/index.vue';
 import About from '../../about/about.vue';
 import Projects from '../../projects/projects.vue';
 import Contact from '../../contact/contact.vue';
@@ -16,7 +15,6 @@ export default {
   NotFound,
   enhanceApp({ app }) {
     app.component('Header', Header),
-    app.component('Title', Title),
     app.component('Home', Home),
     app.component('About', About),
     app.component('Projects', Projects),
