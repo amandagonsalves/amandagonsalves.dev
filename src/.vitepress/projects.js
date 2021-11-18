@@ -2,7 +2,7 @@ export default [
   {
     url: '/project/pali-wallet/',
     title: 'Pali Wallet',
-    description: 'An Extension Wallet for Sys Blockchain.',
+    description: 'A Non-Custodial Crypto Wallet for Syscoin.',
     stack: 'react, typescript, redux',
     link: 'https://paliwallet.com/',
     logo: '/assets/images/logo-m.png',
