@@ -30,7 +30,7 @@
         <h2 class="text-brand-graydarker text-1xl text-2xl my-12 font-poppins">What is Pali Wallet?</h2>
 
         <p>
-          Pali Wallet is a <span class="text-brand-darkpink">browser extension</span> enables you to <span class="text-brand-darkpink">securely</span> store, send, and receive SYS cryptocurrency, as well as any tokens built on the Syscoin Token Platform including <span class="text-brand-darkpink">NFTs and fungibles</span>. It also supports <span class="text-brand-darkpink">Trezor™</span> hardware wallets. <br /><br />
+          Pali Wallet is a <span class="text-brand-darkpink">browser extension</span> that enables you to <span class="text-brand-darkpink">securely</span> store, send, and receive SYS cryptocurrency, as well as any tokens built on the Syscoin Token Platform including <span class="text-brand-darkpink">NFTs and fungibles</span>. It also supports <span class="text-brand-darkpink">Trezor™</span> hardware wallets. <br /><br />
 
           Pali Wallet provides you with a secret <span class="text-brand-darkpink">12-word recovery phrase</span> which makes it easy for you to restore your wallet. Remember, don’t forget your phrase, and keep it safe and secret. <br /><br />
 
