@@ -22,7 +22,7 @@
 
       <p class="mb-6 font-poppins">
         I’m 18 years old and I’m passionate about solving problems and learning,
-        especially new technologies, languages and the financial market.
+        especially new technologies, languages and the financial market. 
       </p>
 
       <p class="mb-6 font-poppins">
