@@ -5,7 +5,7 @@ export default [
     description: 'A Non-Custodial Crypto Wallet for Syscoin.',
     stack: 'react, typescript, redux',
     link: 'https://paliwallet.com/',
-    logo: '/assets/images/logo-m.png',
+    logo: '/assets/images/projects/pali-wallet/logo-m.png',
     background: 'bg-brand-syscoin',
     color: 'text-white',
   },
