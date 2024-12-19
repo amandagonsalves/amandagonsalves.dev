@@ -2,7 +2,7 @@ export default [
   {
     url: '/project/stays/',
     title: 'Stays',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'Property management platform for vacation rentals.',
     stack: 'node, mongodb, docker, jquery',
     link: 'https://stays.net/',
     logo: '/assets/images/projects/stays/logo-m.svg',
