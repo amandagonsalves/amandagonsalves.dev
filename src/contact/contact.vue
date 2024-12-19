@@ -4,7 +4,7 @@
     id="Contact"
   >
     <h2 class="text-3xl mb-6 font-merienda">Contact</h2>
-    <p class="mb-6 font-poppins">amandagonsalvesdev@gmail.com</p>
+    <p class="mb-6 font-poppins">amandagonsalvesags@gmail.com</p>
 
     <Icons />
   </div>

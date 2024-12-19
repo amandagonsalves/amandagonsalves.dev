@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:amandagonsalves/amandagonsalves.dev.git",
-  "author": "Amanda Gonsalves <amandagonsalvesdev@gmail.com>",
+  "author": "Amanda Gonsalves <amandagonsalvesags@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "vitepress dev src",

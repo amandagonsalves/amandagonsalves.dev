@@ -12,6 +12,7 @@
       max-w-6xl
       my-16
       mx-auto
+      font-poppins
     "
     id="About"
   >
@@ -20,31 +21,30 @@
         About
       </h2>
 
-      <p class="mb-6 font-poppins">
-        I’m 18 years old and I’m passionate about solving problems and learning,
-        especially new technologies, languages and the financial market. 
+      <p class="mb-6">
+        I’m 22 years old, passionate about solving problems, and continuously learning, especially in the areas of new technologies, programming languages, and the financial market.
       </p>
 
-      <p class="mb-6 font-poppins">
-        I work with React, Vue, TypeScript and CSS preprocessors like SCSS at
-        frontend. At backend I have experience with Node and NoSQL (MongoDB).
+      <p class="mb-6">
+        I have experience collaborating with international teams, working remotely, and exchanging knowledge with colleagues from diverse backgrounds. This has helped me develop strong communication skills and adapt to different work cultures, enabling me to deliver high-quality solutions in a global context.
       </p>
 
-      <p class="mb-6 font-poppins">
-        I have experience working on top of the Ethereum ecosystem. Developing
-        from the protocol level (with Solidity as the main language, always
-        using cutting edge tools to improve the process like Truffle or
-        Hardhat) to the dApp level using web3.js with front-end frameworks. 
+      <p class="mb-6">
+        On the frontend, I work with React, Vue, TypeScript, and CSS preprocessors like SCSS. On the backend, I have solid experience with Node.js, NoSQL, and SQL.
       </p>
 
-      <p class="mb-6 font-poppins">
+      <p class="mb-6">
+        I’ve worked extensively within the Ethereum ecosystem, developing at both the protocol level (using Solidity with cutting-edge tools like Truffle and Hardhat) and at the dApp level with web3.js and front-end frameworks.
+      </p>
+
+      <p class="mb-6">
         I also developed
         an extension wallet (<a
           class="text-blue-800"
           href="https://paliwallet.com/"
           target="_blank"
           >paliwallet.com</a
-        >) along with the Syscoin blockchain during this year, where I have been
+        >) along with the Syscoin blockchain, where I have been
         working on top of the
         <a
           href="https://github.com/bitcoinjs/bitcoinjs-lib"
@@ -59,12 +59,18 @@
           target="_blank"
           >syscoinjs-lib</a
         >
-        libraries, which is deepening my knowledge of the structure of
-        blockchain itself and allowing me to build on top of any Bitcoin chain
-        as well.
+        libraries, which deepened my understanding of blockchain structures and enabled me to build solutions on top of any Bitcoin chain.
       </p>
 
-      <p class="mb-6 font-poppins">
+      <p class="mb-6">
+        I’ve also had the opportunity to work on projects in the vacation rental industry, where I gained experience with payment integrations and connecting to sales channels like Airbnb, Booking, and Decolar. I’ve worked with Docker, MongoDB, and Node.js to build backend solutions that are both efficient and scalable, further expanding my skills and enabling me to deliver quality results for the company.
+      </p>
+
+      <p class="mb-6">
+        I'm currently working on side projects using Rust and Go, which are enhancing my skills in systems programming and performance optimization. These languages are challenging me to deepen my understanding of low-level development, and I’m excited to apply this knowledge to build high-performance, efficient solutions.
+      </p>
+
+      <p class="mb-6">
         I’m always open to new challenges and ready to learn everything I can to
         do a good job and be better every day.
       </p>

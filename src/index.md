@@ -4,7 +4,7 @@ title: Amanda Gonsalves | Software developer
 ---
 
 <Header />
-<Home title="Amanda Gonsalves" description="​I’m a self-taught software developer based in Florianópolis, Brazil. I’ve been studying since the beginning of 2020 doing a lot of side projects to improve my knowledge. In 2021, I got my first job as a developer, now I’m working hard every day to gain as much knowledge as possible to build my career as a software developer." background="/assets/images/geometric.jpg" />
+<Home title="Amanda Gonsalves" description="I’m a self-taught software developer based in Florianópolis, Brazil, and I’ve been working remotely since the start of my career. Since beginning my journey in 2020, I’ve focused on continuous learning and growth, taking on side projects to strengthen my skills. In 2021, I secured my first role as a developer, and since then, I’ve gained valuable hands-on experience working remotely on complex systems and integrations. Now, I am dedicated to deepening my expertise and contributing to innovative software solutions as I continue to build my career in the remote work environment." background="/assets/images/geometric.jpg" />
 <About />
 <Projects />
 <Contact />
