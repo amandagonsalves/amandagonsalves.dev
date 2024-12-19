@@ -26,7 +26,7 @@
       </p>
 
       <p class="mb-6">
-        I have experience collaborating with international teams, working remotely, and exchanging knowledge with colleagues from diverse backgrounds. This has helped me develop strong communication skills and adapt to different work cultures, enabling me to deliver high-quality solutions in a global context.
+        I have experience collaborating with international teams across different regions, including the USA, Europe, and Latin America, while working remotely. This has allowed me to exchange knowledge with colleagues from diverse backgrounds, helping me develop strong communication skills and adapt to various work cultures, which enables me to deliver high-quality solutions in a global context.
       </p>
 
       <p class="mb-6">
@@ -51,9 +51,7 @@
           target="_blank"
           class="text-blue-800"
           >bitcoinjs-lib</a
-        >
-        and
-        <a
+        > and <a
           href="https://github.com/syscoin/syscoinjs-lib"
           class="text-blue-800"
           target="_blank"
@@ -63,7 +61,13 @@
       </p>
 
       <p class="mb-6">
-        I’ve also had the opportunity to work on projects in the vacation rental industry, where I gained experience with payment integrations and connecting to sales channels like Airbnb, Booking, and Decolar. I’ve worked with Docker, MongoDB, and Node.js to build backend solutions that are both efficient and scalable, further expanding my skills and enabling me to deliver quality results for the company.
+        I’ve also had the opportunity to work on projects in the vacation rental industry with
+        <a
+          href="https://stays.net/"
+          class="text-blue-800"
+          target="_blank"
+          >Stays</a
+        >, the leading vacation rental company in Latin America, where I gained experience with payment integrations and connecting to sales channels like Airbnb, Booking, and Decolar. I’ve worked with Docker, MongoDB, and Node.js to build backend solutions that are both efficient and scalable, further expanding my skills and enabling me to deliver quality results for the company.
       </p>
 
       <p class="mb-6">
