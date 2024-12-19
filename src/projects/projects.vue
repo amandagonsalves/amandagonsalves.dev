@@ -36,7 +36,7 @@
             rounded-t-xl
           "
         >
-          <img :src="project.logo" alt="syscoin logo" class="w-9/12 h-3/5" />
+          <img :src="project.logo" alt="logo" class="w-9/12 h-3/5" />
         </div>
 
         <div class="px-6 flex flex-col cursor-default font-poppins">

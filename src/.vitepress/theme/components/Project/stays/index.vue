@@ -23,7 +23,7 @@
               <small>Property Management</small>
             </li>
 						<li>
-              <small>Channel Managers Integration</small>
+              <small>Channel Managers</small>
             </li>
           </ul>
 
