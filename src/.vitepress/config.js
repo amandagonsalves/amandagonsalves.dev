@@ -42,5 +42,11 @@ module.exports = {
         "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-YHCZ89BVCN');",
       ],
     ],
+    [
+      'script',
+      {
+        src: '../public/embed.js',
+      }
+    ]
   ],
 }

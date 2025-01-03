@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full text-brand-dark flex flex-col justify-center items-center bg-gray-200 h-auto p-12 max-w-6xl mx-auto"
+    class="w-full text-brand-dark flex flex-col justify-center items-center h-auto p-12 max-w-6xl mx-auto"
     id="Contact"
   >
     <h2 class="text-3xl mb-6 font-merienda">Contact</h2>
@@ -8,6 +8,11 @@
 
     <Icons />
   </div>
+
+  <div
+    class="w-full flex flex-col justify-center items-center h-auto max-w-6xl mx-auto"
+    id="my-cal-inline"
+  ></div>
 </template>
 
 <script>
