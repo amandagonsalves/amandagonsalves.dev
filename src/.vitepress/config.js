@@ -45,7 +45,7 @@ module.exports = {
     [
       'script',
       {
-        src: '../public/embed.js',
+        src: '/embed.js',
       }
     ]
   ],
