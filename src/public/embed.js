@@ -39,27 +39,27 @@
   };
 })(window, "https://app.cal.com/embed/embed.js", "init");
 
-Cal("init", "15min", {
+Cal("init", "general", {
   origin: "https://cal.com"
 });
 
-Cal.ns["15min"]("inline", {
-  elementOrSelector: "#my-cal-inline",
+Cal.ns["general"]("inline", {
+  elementOrSelector: "#book-a-call",
   config: {
     "layout": "column_view",
-    "theme": "dark"
+    "theme": "light"
   },
   calLink: "amandagonsalves",
 });
 
-Cal.ns["15min"]("ui", {
+Cal.ns["general"]("ui", {
   "theme": "light",
   "cssVarsPerTheme": {
     "light": {
 			"cal-brand": "#e94560",
 			"cal-bg-emphasis": "#efefef73",
 			"cal-bg-muted": "#efefef73",
-			"cal-border-booker": "#efefef73",
+			"cal-border-booker": "#fff",
 			"cal-border-subtle": "#efefef73",
     }
   },
