@@ -49,7 +49,7 @@ Cal.ns["15min"]("inline", {
     "layout": "column_view",
     "theme": "dark"
   },
-  calLink: "amandagonsalves/15min",
+  calLink: "amandagonsalves",
 });
 
 Cal.ns["15min"]("ui", {
