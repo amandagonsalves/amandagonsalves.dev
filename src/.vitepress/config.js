@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Amanda Gonsalves | Software Developer',
-  description: 'My name is Amanda, I\'m from Florianópolis - Brazil and I\'m a self-taught software developer :)',
+  title: 'Amanda Gonsalves | Software Engineer',
+  description: 'My name is Amanda, I\'m from Florianópolis - Brazil and I\'m a self-taught software engineer :)',
   themeConfig: {
     nav: [
       { text: 'Home' },

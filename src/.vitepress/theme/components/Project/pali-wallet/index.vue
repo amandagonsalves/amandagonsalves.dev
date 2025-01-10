@@ -20,7 +20,7 @@
               <small>DeFi</small>
             </li>
             <li>
-              <small>Software development</small>
+              <small>Software Engineering</small>
             </li>
           </ul>
 
