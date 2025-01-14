@@ -1,15 +1,5 @@
 export default [
   {
-    url: '/project/realms/',
-    title: 'Realms',
-    description: 'DAO Management Platform on Solana.',
-    stack: 'next, typescript, web3',
-    link: 'https://realms.today',
-    logo: 'assets/images/projects/realms/logo-m.svg',
-    background: 'bg-brand-realms',
-    color: 'text-white',
-  },
-  {
     url: '/project/pali-wallet/',
     title: 'Pali Wallet',
     description: 'A Non-Custodial Crypto Wallet for Syscoin.',
@@ -17,6 +7,16 @@ export default [
     link: 'https://paliwallet.com/',
     logo: '/assets/images/projects/pali-wallet/logo-m.png',
     background: 'bg-brand-syscoin',
+    color: 'text-white',
+  },
+  {
+    url: '/project/realms/',
+    title: 'Realms',
+    description: 'DAO Management Platform on Solana.',
+    stack: 'next, typescript, web3',
+    link: 'https://realms.today',
+    logo: 'assets/images/projects/realms/logo-m.svg',
+    background: 'bg-brand-realms',
     color: 'text-white',
   },
   {
