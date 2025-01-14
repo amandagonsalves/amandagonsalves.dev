@@ -25,12 +25,6 @@
             <li>
               <small>dApps</small>
             </li>
-            <li>
-              <small>Security</small>
-            </li>
-            <li>
-              <small>Software Engineering</small>
-            </li>
           </ul>
 
           <small>2021</small>
