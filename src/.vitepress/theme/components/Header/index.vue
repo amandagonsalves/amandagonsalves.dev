@@ -12,12 +12,14 @@
     "
   >
     <div class="max-w-6xl mx-auto flex justify-between items-center">
-      <img
-        src="/assets/images/profile.jpeg"
-        alt="profile"
-        class="rounded-full transition-all duration-300 ease-in-out"
-        :class="state.isScrolling ? 'w-8 h-8' : 'w-12 h-12'"
-      />
+      <a href="/">
+        <img
+          src="/assets/images/profile.jpeg"
+          alt="profile"
+          class="rounded-full transition-all duration-300 ease-in-out"
+          :class="state.isScrolling ? 'w-8 h-8' : 'w-12 h-12'"
+        />
+      </a>
 
       <div class="md:hidden block">
         <button
@@ -72,19 +74,6 @@
             </a>
           </li>
         </ul>
-
-        <a
-          href="mailto:amandagonsalvesags@gmail.com"
-          class="
-            font-poppins
-            text-center
-            hover:text-brand-darkpink
-            transition-all
-            duration-300
-          "
-        >
-          Let's talk
-        </a>
       </nav>
 
       <div
@@ -177,19 +166,6 @@
                   </a>
                 </li>
               </ul>
-
-              <a
-                href="mailto:amandagonsalves75@gmail.com"
-                class="
-                  font-poppins
-                  text-center
-                  hover:text-brand-darkpink
-                  transition-all
-                  duration-300
-                "
-              >
-                Let's talk
-              </a>
             </div>
           </div>
         </div>
