@@ -11,6 +11,7 @@ module.exports = {
     syscoin: '#101d48',
     staysmastersystem: '#1c383d',
     whitetransparent:'#ffffff4d',
-    bluetransparent: '#1221368c'
+    bluetransparent: '#1221368c',
+    realms: "#201F27"
   },
 }
