@@ -1,15 +1,5 @@
 export default [
   {
-    url: '/project/stays/',
-    title: 'Stays',
-    description: 'Property management platform for vacation rentals.',
-    stack: 'node, mongodb, docker, jquery',
-    link: 'https://stays.net/',
-    logo: '/assets/images/projects/stays/logo-m.svg',
-    background: 'bg-gray-100',
-    color: 'text-white',
-  },
-  {
     url: '/project/stays-master-system/',
     title: 'Stays Master System',
     description: 'Property management system for vacation rentals.',
