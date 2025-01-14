@@ -20,13 +20,13 @@ export default [
     color: 'text-white',
   },
   {
-    url: '/project/stays-master-system/',
-    title: 'Stays Master System',
+    url: '/project/stays/',
+    title: 'Stays',
     description: 'Property management system for vacation rentals.',
     stack: 'node, mongodb, docker',
     link: 'https://stays.cc/web/index',
-    logo: '/assets/images/projects/stays-master-system/logo-m.png',
-    background: 'bg-brand-staysmastersystem',
+    logo: '/assets/images/projects/stays/logo-m.png',
+    background: 'bg-brand-stays',
     color: 'text-white',
   },
 ];
