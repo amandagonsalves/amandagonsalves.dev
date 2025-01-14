@@ -52,7 +52,7 @@
         </p>
 
         <img
-          src="/assets/images/projects/pali-wallet/mockupstart.png"
+          src="/assets/images/projects/pali-wallet/mockup-home.png"
           alt="mockup"
           class="w-full my-4 sm:my-12"
         />
@@ -112,7 +112,7 @@
         </p>
 
         <img
-          src="/assets/images/projects/pali-wallet/mockup2.png"
+          src="/assets/images/projects/pali-wallet/mockup-trezor.png"
           alt="mockup"
           class="w-full my-4 sm:my-8"
         />
