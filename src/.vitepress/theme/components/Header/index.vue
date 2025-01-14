@@ -11,7 +11,16 @@
       bg-white
     "
   >
-    <div class="max-w-6xl mx-auto flex md:justify-center justify-end items-center">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <a href="/">
+        <img
+          src="/assets/images/profile.jpeg"
+          alt="profile"
+          class="rounded-full transition-all duration-300 ease-in-out"
+          :class="state.isScrolling ? 'w-8 h-8' : 'w-12 h-12'"
+        />
+      </a>
+
       <div class="md:hidden block">
         <button
           type="button"
@@ -29,11 +38,12 @@
       </div>
 
       <nav class="md:flex items-center hidden">
-        <ul v-if="!projectRoute" class="flex items-center gap-8">
+        <ul v-if="!projectRoute" class="flex items-center">
           <li v-for="item in navData" :key="item.text">
             <p
               class="
                 cursor-pointer
+                ml-8
                 font-poppins
                 text-right
                 transition-all
