@@ -43,9 +43,9 @@
             <p
               class="
                 cursor-pointer
-                mr-8
+                ml-8
                 font-poppins
-                text-center
+                text-right
                 transition-all
                 duration-300
                 hover:text-brand-darkpink
