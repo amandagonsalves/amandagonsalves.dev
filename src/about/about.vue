@@ -78,12 +78,6 @@
         I’m always open to new challenges and ready to learn everything I can to
         do a good job and be better every day.
       </p>
-
-      <img
-        src="/assets/images/stack2.png"
-        alt="profile"
-        class="rounded-full w-full mt-12"
-      />
     </div>
   </div>
 </template>
