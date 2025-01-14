@@ -20,6 +20,15 @@
               <small>DeFi</small>
             </li>
             <li>
+              <small>Web3</small>
+            </li>
+            <li>
+              <small>dApps</small>
+            </li>
+            <li>
+              <small>Security</small>
+            </li>
+            <li>
               <small>Software Engineering</small>
             </li>
           </ul>
@@ -34,7 +43,7 @@
 
           Pali Wallet provides you with a secret <span class="text-brand-darkpink">12-word recovery phrase</span> which makes it easy for you to restore your wallet. Remember, don’t forget your phrase, and keep it safe and secret. <br /><br />
 
-          This <span class="text-brand-darkpink">non-custodial web 3.0 wallet</span> enables you to interact with <span class="text-brand-darkpink">Syscoin dapps</span> in a secure way. It provides you the ability to authenticate and sign transactions without exposing your <span class="text-brand-darkpink">private keys</span>. Your keys are kept secure in the extension’s storage area and are <span class="text-brand-darkpink">encrypted</span> with a password. <br /><br />
+          This <span class="text-brand-darkpink">non-custodial web 3.0 wallet</span> enables you to interact with <span class="text-brand-darkpink">dApps</span> in a secure way. It provides you the ability to authenticate and sign transactions without exposing your <span class="text-brand-darkpink">private keys</span>. Your keys are kept secure in the extension’s storage area and are <span class="text-brand-darkpink">encrypted</span> with a password. <br /><br />
 
           This <span class="text-brand-darkpink">crypto wallet extension</span> requires and requests your express permission in order to interact with any webpage or dapp you visit, because it adds new functionality to the normal browser context. <br /><br />
 
@@ -42,8 +51,6 @@
 
           Pali Wallet is <span class="text-brand-darkpink">open source</span>. The source code was created to be compatible (more or less) with any <span class="text-brand-darkpink">Bitcoin based blockchain</span>. Any skilled developer can fork and adapt it to work with <span class="text-brand-darkpink">BTC or similar coins</span> with relatively minor refactoring in most cases. The source code is available <a class="text-brand-darkpink" target="_blank" href="https://github.com/syscoin/pali-wallet">here</a>. <br /><br />
           
-          <span class="text-brand-darkpink">Support for Ethereum and Ethereum based blockchains</span> is expected in the next major release of Pali Wallet. <br /><br />
-
           Source code and security were externally <span class="text-brand-darkpink">audited</span> before this extension was released. The audit report is public and can be reviewed <a class="text-brand-darkpink" target="_blank" href="https://github.com/syscoin/pali-wallet/tree/master/extension/audit/CYREX_AUDIT_27_09_2021">here</a>. <br /><br />
           
           Pali Wallet was developed by <span class="text-brand-darkpink">Pollum Labs</span> in cooperation with <span class="text-brand-darkpink">Syscoin Foundation</span>. <br /><br />
