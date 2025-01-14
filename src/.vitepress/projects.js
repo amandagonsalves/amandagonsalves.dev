@@ -22,7 +22,7 @@ export default [
   {
     url: '/project/stays/',
     title: 'Stays',
-    description: 'Property management system for vacation rentals.',
+    description: 'Property management system for.',
     stack: 'node, mongodb, docker',
     link: 'https://stays.cc/web/index',
     logo: '/assets/images/projects/stays/logo-m.png',
