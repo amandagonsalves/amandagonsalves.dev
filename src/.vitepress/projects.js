@@ -2,7 +2,7 @@ export default [
   {
     url: '/project/realms/',
     title: 'Realms',
-    description: 'DAO management platform on Solana.',
+    description: 'DAO Management Platform on Solana.',
     stack: 'next, typescript, web3',
     link: 'https://realms.today',
     logo: 'assets/images/projects/realms/logo-m.svg',
@@ -22,7 +22,7 @@ export default [
   {
     url: '/project/stays/',
     title: 'Stays',
-    description: 'Property management system for.',
+    description: 'Property Management System.',
     stack: 'node, mongodb, docker',
     link: 'https://stays.cc/web/index',
     logo: '/assets/images/projects/stays/logo-m.png',
