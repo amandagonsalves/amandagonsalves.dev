@@ -71,7 +71,7 @@
       </p>
 
       <p class="mb-6">
-        I'm currently working on side projects using Rust and Go, which are enhancing my skills in systems programming and performance optimization. These languages are challenging me to deepen my understanding of low-level development, and I’m excited to apply this knowledge to build high-performance, efficient solutions.
+        I'm currently working on side projects using Rust, which are enhancing my skills in systems programming and performance optimization. This languages is challenging me to deepen my understanding of low-level development, and I’m excited to apply this knowledge to build high-performance, efficient solutions.
       </p>
 
       <p class="mb-6">
