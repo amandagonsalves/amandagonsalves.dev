@@ -71,7 +71,7 @@
       </p>
 
       <p class="mb-6">
-        I'm currently working on side projects using Rust, which are enhancing my skills in systems programming and performance optimization. This languages is challenging me to deepen my understanding of low-level development, and I’m excited to apply this knowledge to build high-performance, efficient solutions.
+        I'm currently working on side projects using Rust, which are enhancing my skills in systems programming and performance optimization. Rust is challenging me to deepen my understanding of low-level development, and I’m excited to apply this knowledge to build high-performance and efficient solutions.
       </p>
 
       <p class="mb-6">
