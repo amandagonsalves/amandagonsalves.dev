@@ -15,7 +15,7 @@
     "@tailwindcss/postcss7-compat": "^2.0.3",
     "@vuepress/plugin-google-analytics": "^1.8.2",
     "autoprefixer": "^10.2.4",
-    "hygen": "^6.0.4",
+    "hygen": "^6.2.11",
     "postcss": "^8.2.6",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
     "vitepress": "^0.12.2",
