@@ -1,28 +1,33 @@
-Amanda Gonsalves
+## amandagonsalves.dev
 ----------
 
-My personal website made with Vitepress (Vite + Vue3) and Tailwind.
+my personal website made with Vitepress (Vite + Vue3) and Tailwind.
 
-Requirements
+requirements
 ----------
 - [node](https://nodejs.org/en/)
 - [yarn](https://yarnpkg.com/)
 
-Installation
+installation
 ----------
 
-#### Clone the project:
+#### clone the project:
 ```
-$ git clone git@github.com:amandagonsalves/amandagonsalves.git
-```
-
-#### Install all dependencies:
-```
-$ cd amandagonsalves.dev
-$ yarn
+git clone git@github.com:amandagonsalves/amandagonsalves.git
 ```
 
-#### Run app:
+#### install all dependencies:
 ```
-$ yarn dev
+cd amandagonsalves.dev
+yarn
 ```
+
+#### run app:
+```
+yarn dev
+```
+
+<!-- #### to create a new project:
+```
+todo
+``` -->
