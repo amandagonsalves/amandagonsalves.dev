@@ -13,7 +13,7 @@ module.exports = {
       },
       height: {
         lg: '90vh',
-        card: '400px',
+        card: '500px',
         '104': '45rem',
         'full-h': '100vh',
       },
