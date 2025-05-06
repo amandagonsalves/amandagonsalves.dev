@@ -14,7 +14,7 @@
     <div class="max-w-6xl mx-auto flex justify-between items-center">
       <a href="/">
         <img
-          src="/assets/images/profile.jpeg"
+          src="/assets/images/profile.png"
           alt="profile"
           class="rounded-full transition-all duration-300 ease-in-out"
           :class="state.isScrolling ? 'w-8 h-8' : 'w-12 h-12'"
